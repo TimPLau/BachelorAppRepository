@@ -1,7 +1,7 @@
 ﻿[
 	{
 		"type"			: "ButtonListWidget",
-		"title" 		: "Hinweise und Tipps",
+		"title" 		: "Allgemeine Hinweise",
 		"description" 	: "Stellt die gängigen Gliederung dar",
 		"tags"			: [
 			"Allgemein",
