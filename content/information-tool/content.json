@@ -66,89 +66,6 @@
 	},
 	{
 		"type"			: "ButtonListWidget",
-		"title" 		: "Methodenübersicht",
-		"description" 	: "Das Schreiben der Bachelorarbeit",
-		"tags"			: [
-			"Allgemein",
-			"Gliederung"
-		],
-		"subsections"	: [
-			{
-				"type"			: 	"ButtonListWidget",
-				"title"			:	"Use-Case Diagramm",
-				"description"	:	"Gliederung einer enwickelnden Arbeit",
-				"tags"			:	[
-					"Entwickelnde Arbeit"
-				],
-				"subsections"		: [
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Beispiel I",
-						"description"	:	"Beispiel I",
-						"tags"			:	[],
-						"subsections" 	: 	[]
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Beispiel II",
-						"description"	:	"Beispiel II",
-						"tags"			:	[],
-						"subsections" 	: 	[]
-					}
-				]
-			},
-			{
-				"type"			: 	"ButtonListWidget",
-				"title"			:	"Interviewmethode",
-				"description"	:	"Interviewmethode",
-				"tags"			:	[
-					"Vergleichende Arbeit"
-				],
-				"subsections"		: [
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Beispiel III",
-						"description"	:	"Beispiel III",
-						"tags"			:	[],
-						"subsections" 	: 	[]
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Beispiel IV",
-						"description"	:	"Beispiel IV",
-						"tags"			:	[],
-						"subsections" 	: 	[]
-					}
-				]
-			},
-			{
-				"type"			: 	"ButtonListWidget",
-				"title"			:	"ABC-Analyse",
-				"description"	:	"ABC-Analyse",
-				"tags"			:	[
-					"Vergleichende Arbeit"
-				],
-				"subsections"		: [
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Beispiel III",
-						"description"	:	"Beispiel III",
-						"tags"			:	[],
-						"subsections" 	: 	[]
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Beispiel IV",
-						"description"	:	"BeispielIV",
-						"tags"			:	[],
-						"subsections" 	: 	[]
-					}
-				]
-			}
-		]
-	},
-	{
-		"type"			: "ButtonListWidget",
 		"title" 		: "Aufbau und Struktur",
 		"description" 	: "Anforderungsanalyse",
 		"tags"			: [
@@ -234,6 +151,172 @@
 		"type"			: "ButtonListWidget",
 		"title" 		: "Das Schreiben der Bachelorarbeit",
 		"description" 	: "Anforderungsanalyse",
+		"tags"			: [
+			"Allgemein",
+			"Gliederung"
+		],
+		"subsections"	: [
+			{
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"Use-Case Diagramm",
+				"description"	:	"Gliederung einer enwickelnden Arbeit",
+				"tags"			:	[
+					"Entwickelnde Arbeit"
+				],
+				"subsections"		: [
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Beispiel I",
+						"description"	:	"Beispiel I",
+						"tags"			:	[],
+						"subsections" 	: 	[]
+					},
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Beispiel II",
+						"description"	:	"Beispiel II",
+						"tags"			:	[],
+						"subsections" 	: 	[]
+					}
+				]
+			},
+			{
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"Interviewmethode",
+				"description"	:	"Interviewmethode",
+				"tags"			:	[
+					"Vergleichende Arbeit"
+				],
+				"subsections"		: [
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Beispiel III",
+						"description"	:	"Beispiel III",
+						"tags"			:	[],
+						"subsections" 	: 	[]
+					},
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Beispiel IV",
+						"description"	:	"Beispiel IV",
+						"tags"			:	[],
+						"subsections" 	: 	[]
+					}
+				]
+			},
+			{
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"ABC-Analyse",
+				"description"	:	"ABC-Analyse",
+				"tags"			:	[
+					"Vergleichende Arbeit"
+				],
+				"subsections"		: [
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Beispiel III",
+						"description"	:	"Beispiel III",
+						"tags"			:	[],
+						"subsections" 	: 	[]
+					},
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Beispiel IV",
+						"description"	:	"BeispielIV",
+						"tags"			:	[],
+						"subsections" 	: 	[]
+					}
+				]
+			}
+		]
+	},
+	{
+		"type"			: "ButtonListWidget",
+		"title" 		: "Methodenübersicht",
+		"description" 	: "Das Schreiben der Bachelorarbeit",
+		"tags"			: [
+			"Allgemein",
+			"Gliederung"
+		],
+		"subsections"	: [
+			{
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"Use-Case Diagramm",
+				"description"	:	"Gliederung einer enwickelnden Arbeit",
+				"tags"			:	[
+					"Entwickelnde Arbeit"
+				],
+				"subsections"		: [
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Beispiel I",
+						"description"	:	"Beispiel I",
+						"tags"			:	[],
+						"subsections" 	: 	[]
+					},
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Beispiel II",
+						"description"	:	"Beispiel II",
+						"tags"			:	[],
+						"subsections" 	: 	[]
+					}
+				]
+			},
+			{
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"Interviewmethode",
+				"description"	:	"Interviewmethode",
+				"tags"			:	[
+					"Vergleichende Arbeit"
+				],
+				"subsections"		: [
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Beispiel III",
+						"description"	:	"Beispiel III",
+						"tags"			:	[],
+						"subsections" 	: 	[]
+					},
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Beispiel IV",
+						"description"	:	"Beispiel IV",
+						"tags"			:	[],
+						"subsections" 	: 	[]
+					}
+				]
+			},
+			{
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"ABC-Analyse",
+				"description"	:	"ABC-Analyse",
+				"tags"			:	[
+					"Vergleichende Arbeit"
+				],
+				"subsections"		: [
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Beispiel III",
+						"description"	:	"Beispiel III",
+						"tags"			:	[],
+						"subsections" 	: 	[]
+					},
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Beispiel IV",
+						"description"	:	"BeispielIV",
+						"tags"			:	[],
+						"subsections" 	: 	[]
+					}
+				]
+			}
+		]
+	},
+	{
+		"type"			: "ButtonListWidget",
+		"title" 		: "FAQ",
+		"description" 	: "Das Schreiben der Bachelorarbeit",
 		"tags"			: [
 			"Allgemein",
 			"Gliederung"
