@@ -64,7 +64,7 @@
 			}
 		]
 	},
-{
+	{
 		"type"			: "ButtonListWidget",
 		"title" 		: "Methodenübersicht",
 		"description" 	: "Das Schreiben der Bachelorarbeit",
@@ -147,9 +147,9 @@
 			}
 		]
 	},
-{
+	{
 		"type"			: "ButtonListWidget",
-		"title" 		: "Aufbau und Struktur"
+		"title" 		: "Aufbau und Struktur",
 		"description" 	: "Anforderungsanalyse",
 		"tags"			: [
 			"Allgemein",
@@ -232,7 +232,7 @@
 	},
 	{
 		"type"			: "ButtonListWidget",
-		"title" 		: "Methodenübersicht",
+		"title" 		: "Das Schreiben der Bachelorarbeit",
 		"description" 	: "Anforderungsanalyse",
 		"tags"			: [
 			"Allgemein",
