@@ -31,5 +31,38 @@
 				]
 			}
 		]
-	}
+	},
+	{
+		"type"			: "ButtonListWidget",
+		"title" 		: "Gliederung",
+		"description" 	: "Stellt die gängigen Gliederung dar",
+		"tags"			: [
+			"Allgemein",
+			"Gliederung"
+		],
+		"subsections"	: [
+			{
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"Entwickelnde Arbeit",
+				"description"	:	"Gliederung einer enwickelnden Arbeit",
+				"tags"			:	[
+					"Entwickelnde Arbeit"
+				],
+				"subsections"		: [
+					
+				]
+			},
+			{
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"Vergleichende Arbeit",
+				"description"	:	"Gliederung einer vergleichenden Arbeit",
+				"tags"			:	[
+					"Vergleichende Arbeit"
+				],
+				"subsections"		: [
+					
+				]
+			}
+		]
+	},
 ]
