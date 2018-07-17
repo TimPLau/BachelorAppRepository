@@ -1,5 +1,4 @@
-﻿[
-	{
+﻿{
 		"type"			: "ButtonListWidget",
 		"title" 		: "Aufbau und Struktur",
 		"description" 	: "",
@@ -30,5 +29,4 @@
 				]
 			}
 		]
-	}
-]
+}
