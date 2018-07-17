@@ -8,7 +8,7 @@
 		],
 		"subsections"	: [
 			{
-				"type"			: 	"ExpansionpanelWidget",
+				"type"			: 	"ExpansionPanelWidget",
 				"title"			:	"Beispiel 1",
 				"description"	:	"Beispiel 1 Description",
 				"tags"			:	[
@@ -19,7 +19,7 @@
 				]
 			},
 			{
-				"type"			: 	"ExpansionpanelWidget",
+				"type"			: 	"ExpansionPanelWidget",
 				"title"			:	"Beispiel 2",
 				"description"	:	"Beispiel 2 Description",
 				"tags"			:	[
