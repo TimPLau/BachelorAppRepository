@@ -11,7 +11,6 @@
 				"title"			:	"Beispiel 1",
 				"description"	:	"Beispiel 1 Description",
 				"tags"			:	[
-					""
 				],
 			},
 			{
@@ -19,7 +18,7 @@
 				"title"			:	"Beispiel 2",
 				"description"	:	"Beispiel 2 Description",
 				"tags"			:	[
-					"Vergleichende Arbeit"
+					"Vergleichende Arbeit",
 				],
 			}
 		]
