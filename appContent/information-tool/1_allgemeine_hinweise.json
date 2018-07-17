@@ -13,6 +13,9 @@
 				"description"	:	"Beispiel 1 Description",
 				"tags"			:	[
 				
+				],
+				"subsections"	: [
+				
 				]
 			},
 			{
@@ -21,6 +24,9 @@
 				"description"	:	"Beispiel 2 Description",
 				"tags"			:	[
 					"Vergleichende Arbeit"
+				]
+				"subsections"	: [
+				
 				]
 			}
 		]
