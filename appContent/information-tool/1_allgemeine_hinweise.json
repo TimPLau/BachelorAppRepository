@@ -1,7 +1,7 @@
 ﻿
 {
 		"type"			: "ButtonListWidget",
-		"title" 		: "Allgemeine Hinweise",
+		"title" 		: "Allgemeine Hinweiseee",
 		"description" 	: "",
 		"tags"			: [
 		
@@ -11,12 +11,8 @@
 				"type"			: 	"ExtensionPanelWidget",
 				"title"			:	"Beispiel 1",
 				"description"	:	"Beispiel 1 Description",
-				"tags"			:	[
-				
-				],
-				"subsections"	: [
-				
-				]
+				"tags"			:	[],
+				"subsections"	: []
 			},
 			{
 				"type"			: 	"ExtensionPanelWidget",
@@ -25,9 +21,7 @@
 				"tags"			:	[
 					"Vergleichende Arbeit"
 				],
-				"subsections"	: [
-				
-				]
+				"subsections"	: []
 			}
 		]
 }
