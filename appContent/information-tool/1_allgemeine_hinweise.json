@@ -4,6 +4,7 @@
 		"title" 		: "Allgemeine Hinweise",
 		"description" 	: "",
 		"tags"			: [
+		
 		],
 		"subsections"	: [
 			{
@@ -11,7 +12,8 @@
 				"title"			:	"Beispiel 1",
 				"description"	:	"Beispiel 1 Description",
 				"tags"			:	[
-				],
+				
+				]
 			},
 			{
 				"type"			: 	"ExpansionpanelWidget",
@@ -19,7 +21,7 @@
 				"description"	:	"Beispiel 2 Description",
 				"tags"			:	[
 					"Vergleichende Arbeit",
-				],
+				]
 			}
 		]
 	}
