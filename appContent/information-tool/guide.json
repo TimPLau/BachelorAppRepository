@@ -1,4 +1,4 @@
-﻿
+﻿"information": [
 {
 		"type"			: "ButtonListWidget",
 		"title" 		: "Allgemeine Hinweise",
@@ -25,3 +25,4 @@
 			}
 		]
 }
+]
