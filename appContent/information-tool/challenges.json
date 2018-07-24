@@ -1,10 +1,12 @@
-﻿"challenges": [
-	{
-		"name": "Beginne deine Einleitung",
-		"description": "Beginne deine Einleitung, um den ersten Schritt auf dem Weg zur fertigen Bachelorarbeit zu tätigen"
-	},
-	{
-		"name": "Beginne deine Einleitung",
-		"description": "Beginne deine Einleitung, um den ersten Schritt auf dem Weg zur fertigen Bachelorarbeit zu tätigen"
-	}
-]
+﻿{
+	"challenges": [
+		{
+			"name": "Beginne deine Einleitung",
+			"description": "Beginne deine Einleitung, um den ersten Schritt auf dem Weg zur fertigen Bachelorarbeit zu tätigen"
+		},
+		{
+			"name": "Beginne deine Zweileitung",
+			"description": "Beginne deine Zweileitung, um den zweiten Schritt auf dem Weg zur fertigen Bachelorarbeit zu tätigen"
+		}
+	]
+}

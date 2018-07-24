@@ -1,28 +1,30 @@
-﻿"information": [
-{
-		"type"			: "ButtonListWidget",
-		"title" 		: "Allgemeine Hinweise",
-		"description" 	: "",
-		"tags"			: [
-		
-		],
-		"subsections"	: [
-			{
-				"type"			: 	"ExtensionPanelWidget",
-				"title"			:	"Beispiel 1",
-				"description"	:	"Beispiel 1 Description",
-				"tags"			:	[],
-				"subsections"	: []
-			},
-			{
-				"type"			: 	"ExtensionPanelWidget",
-				"title"			:	"Beispiel 2",
-				"description"	:	"Beispiel 2 Description",
-				"tags"			:	[
-					"Vergleichende Arbeit"
-				],
-				"subsections"	: []
-			}
-		]
-},
-]
+﻿{
+	"information": [
+	{
+			"type"			: "ButtonListWidget",
+			"title" 		: "Allgemeine Hinweise",
+			"description" 	: "",
+			"tags"			: [
+			
+			],
+			"subsections"	: [
+				{
+					"type"			: 	"ExtensionPanelWidget",
+					"title"			:	"Beispiel 1",
+					"description"	:	"Beispiel 1 Description",
+					"tags"			:	[],
+					"subsections"	: []
+				},
+				{
+					"type"			: 	"ExtensionPanelWidget",
+					"title"			:	"Beispiel 2",
+					"description"	:	"Beispiel 2 Description",
+					"tags"			:	[
+						"Vergleichende Arbeit"
+					],
+					"subsections"	: []
+				}
+			]
+	},
+	]
+}
