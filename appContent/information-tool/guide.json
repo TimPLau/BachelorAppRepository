@@ -1,28 +1,70 @@
 ﻿[
 	{
 		"type"			: "ButtonListWidget",
-		"title" 		: "Allgemeine Hinweise",
+		"title" 		: "Formalien, Voraussetzungen und Fristen ",
 		"description" 	: "",
-		"tags"			: [
-				
-		],
+		"tags"			: [],
 		"subsections"	: [
-			{
-				"type"			: 	"ExtensionPanelWidget",
-				"title"			:	"Beispiel 1",
-				"description"	:	"Beispiel 1 Description",
-				"tags"			:	[],
-				"subsections"	: []
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Prüfung der Vorraussetzungen",
+						"description"	:	"Nachdem du einen Erstprüfer gefunden hast, etwa 3 Wochen vor Beginn der Abschlussarbeit, musst du im Sekretariat um Überprüfung der Zulassungsvoraussetzung bitten. Hierzu kannst du das entsprechende Formblatt im Sekretariat ausfüllen oder eine Mail an ei@fh-luebeck.de schicken. Wenn alle Voraussetzungen gemäß der der für den Studiengang gültigen Prüfungsordnung erfüllt sind, erhält dein Erstprüfer eine E-Mail über die erfolgte Zulassung. Erst dann kann deine Arbeit angemeldet werden.",
+						"tags"			:	[],
+						"subsections"	: 	[],
+					},
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Anmeldung",
+						"description"	:	"Dein Erstprüfer meldet nach der Zulassung dein Thema, ggf. die Aufgabenstellung und das offizielle Ausgabedatum an, ab dem die dreimonatige Frist beginnt.",
+						"tags"			:	[],
+						"subsections"	: []
+					},
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Formblatt",
+						"description"	:	"Nachdem du mit deinem Erstprüfer das Thema ausgearbeitet hast, wird die Themenbeschreibung in das Formblatt eingetragen und ans Sekretariat geschickt. Daraufhin wird die offizielle Aufgabenstellung vom Sekretariat erstellt, wobei dir Ausgabe offiziell durch den Vorsitzenden des Prüfungsausschusses erfolgt. Die Aufforderung zum Abholen der offiziellen Aufgabenstellung kommt gegebenenfalls per Post.",
+						"tags"			:	[],
+						"subsections"	: []
+					},
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Bearbeitungszeit",
+						"description"	:	"Die Abschlussarbeit muss bis zu einem festen Termin fertiggestellt und entsprechend der Formalien abgegeben werden. Die Bearbeitungsdauer beträgt bei Bachelorarbeiten 3 Monate. Die Abgabefrist darf unter keinen Umständen versäumt werden, da die Arbeit ansonsten als nicht bestanden gilt. Eine Ausnahme davon besteht nur bei Fremdverschulden (z.B. wenn der Ansprechpartner in einer Firma benötigte Unterlagen nicht bereitgestellt hat) oder Krankheit. In diesen Fällen ist ein Antrag auf Verlängerung schriftlich vor Ablauf der Abgabefrist einzureichen. Eine Verlängerung der Abgabefrist, weil der Studierende sich bei der Zeitplanung verschätzt hat, ist nicht möglich. Das Thema kann einmal und nur innerhalb des ersten Drittels des Bearbeitungszeitraums gegenüber dem Prüfungsausschussvorsitzenden zurückgegeben werden. Sollte die Arbeit am Ende mit „nicht ausreichend“ bewertet werden, ist eine einmalige Wiederholung möglich (ein Antrag zur Wiederholung muss spätestens innerhalb der nächsten beiden Semester erfolgen).",
+						"tags"			:	[],
+						"subsections"	: []
+					},
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Abgabe der Arbeit",
+						"description"	:	"Du musst zwei Exemplare der Arbeit im Sekretariat des Fachbereichs abgeben, eine Abgabe ist auch per Post möglich. Hierbei ist das Datum des Poststempels entscheidend.\n\nAdresse:\nFachhochschule Lübeck\nFachbereich Elektrotechnik und Informatik, Prüfungsausschuss\nMönkhofer Weg 239\n23562 Lübeck\nZusätzlich zu deiner schriftlichen Abgabe musst du die Arbeit selbst und alle zugehörigen Materialien (z.B. Programmcode) auf eine CD brennen und hinten in der Arbeit mit abheften. Eines der Exemplare wird später archiviert. Das zweite dient zur Kontrolle durch den Erstprüfer und verbleibt dort",
+						"tags"			:	[],
+						"subsections"	: []
+					},
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Kolloquium",
+						"description"	:	"Das Kolloquium selber findet in einem Seminarraum oder kleinen Hörsaal statt. Beim Vortrag ist die Öffentlichkeit zugelassen, bei der Befragung durch die Prüfer nicht. Du solltest im Vorfeld das Vorhandensein der technischen Ausstattung sicherstellen und rechtzeitig erscheinen, um (oftmals auftretende) Schwierigkeiten, z.B. dass das Notebook nicht auf Anhieb den Beamer erkennt, vor Beginn des Kolloquiums beheben zu können. Am Ende des Kolloquiums soll die Präsentation zusätzlich beim Erstprüfer abgegeben werden.\nFür das Kolloquium musst du einen Foliensatz (z.B. eine PowerPoint-Präsentation) vorbereiten, der für eine Vortragsdauer von ca. 25 Minuten ausgelegt ist (Abweichungen sind insbesondere beim Online-Studium möglich, das musst du mit deinem Erstbetreuer absprechen). Hierbei ist zu beachten, dass üblicherweise 2 bis 3 Minuten für die Präsentation einer Folie geschätzt werden, also sollten ca. 10 Folien verwendet werden. Rechtschreibfehler auf den Folien sollten vermieden werden. Eine Tafel kann ebenfalls verwendet werden, genauso wie das Zeigen von Mustern oder einer Demonstration. Bei den Folien solltest du darauf achten, den Schwerpunkt auf die eigene Arbeit zu legen, d.h. angesichts der begrenzten Zeit nicht zu viel über den Hintergrund oder verwandte Arbeiten zu berichten. Oftmals bietet es sich an, sich an der Gliederung der Ausarbeitung zu orientieren, wobei im Vortrag keine Vollständigkeit angestrebt werden sollte, sondern einzelne Beispiele gezielt herausgesucht werden können. ",
+						"tags"			:	[],
+						"subsections"	: []
+					},
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"Bewertung der Arbeit",
+						"description"	:	"Erstprüfer und Zweitprüfer werden gemeinsam die Noten für die schriftliche Ausarbeitung und die mündliche Prüfung festlegen. Um eine Vorstellung davon zu geben, welche Kriterien eine Rolle dabei spielen, ist im Bereich „Material“ ein Bewertungsbogen für den Possehlpreis hinterlegt. Jeder Prüfer kann jedoch eigene Kriterien verwenden und diese auch eigenständig gewichten.",
+						"tags"			:	[],
+						"subsections"	: []
+					}
+				]
 			},
 			{
 				"type"			: 	"ExtensionPanelWidget",
-				"title"			:	"Beispiel 2",
+				"title"			:	"",
 				"description"	:	"Beispiel 2 Description",
 				"tags"			:	[
 					"Vergleichende Arbeit"
 				],
 				"subsections"	: []
-				}
+			}
 		]
 	}
 ]
