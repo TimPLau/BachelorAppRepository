@@ -1,7 +1,7 @@
 ﻿[
 	{
 		"type"			: "ButtonListWidget",
-		"title" 		: "Formalieeeeeeen, Voraussetzungen und Fristen ",
+		"title" 		: "Formalien, Voraussetzungen und Fristen ",
 		"description" 	: "",
 		"tags"			: [],
 		"subsections"	: [
@@ -108,7 +108,7 @@
 					{
 						"type"			: 	"ExtensionPanelWidget",
 						"title"			:	"Aufbau der E-Mail an den Betreuer",
-						"description"	:	"Für die Zwischenstands-Mails bietet sich die folgende Gliederung an: \n \t - Nameeeee, Titel der Arbeit, Berichtsdatum, Berichtszeitraum \n \t-Stand (Implementierung, Messungen, Berechnungen, Simulationen)-Ergebnisse (gleiche Kategorie aber konkret, z.B.: Prototypenplatine gelötet)-Dokumentation (konkret, z.B. Kapitel Grundlagen fertig)-Planung für den nächsten Zeitraum (konkret: 1. Inbetriebnahme der Platine 1 Woche, Leistungsmessungen bis abgeschlossen und Messbericht geschrieben 30.6.; 2. ...). Diese Kurzberichte helfen auch bei der Planung und bei der Erkennung von Zeitproblemen.",
+						"description"	:	"Für die Zwischenstands-Mails bietet sich die folgende Gliederung an: \n \t - Name, Titel der Arbeit, Berichtsdatum, Berichtszeitraum \n \t-Stand (Implementierung, Messungen, Berechnungen, Simulationen)-Ergebnisse (gleiche Kategorie aber konkret, z.B.: Prototypenplatine gelötet)-Dokumentation (konkret, z.B. Kapitel Grundlagen fertig)-Planung für den nächsten Zeitraum (konkret: 1. Inbetriebnahme der Platine 1 Woche, Leistungsmessungen bis abgeschlossen und Messbericht geschrieben 30.6.; 2. ...). Diese Kurzberichte helfen auch bei der Planung und bei der Erkennung von Zeitproblemen.",
 						"tags"			:	[],
 						"subsections"	: 	[]
 					}
