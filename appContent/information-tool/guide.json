@@ -10,7 +10,7 @@
 						"title"			:	"Prüfung der Vorraussetzungen",
 						"description"	:	"Nachdem du einen Erstprüfer gefunden hast, etwa 3 Wochen vor Beginn der Abschlussarbeit, musst du im Sekretariat um Überprüfung der Zulassungsvoraussetzung bitten. Hierzu kannst du das entsprechende Formblatt im Sekretariat ausfüllen oder eine Mail an ei@fh-luebeck.de schicken. Wenn alle Voraussetzungen gemäß der der für den Studiengang gültigen Prüfungsordnung erfüllt sind, erhält dein Erstprüfer eine E-Mail über die erfolgte Zulassung. Erst dann kann deine Arbeit angemeldet werden.",
 						"tags"			:	[],
-						"subsections"	: 	[],
+						"subsections"	: 	[]
 					},
 					{
 						"type"			: 	"ExtensionPanelWidget",
