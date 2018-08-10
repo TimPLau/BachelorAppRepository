@@ -1,0 +1,39 @@
+﻿[
+	{
+		"type"			: "ButtonListWidget",
+		"title" 		: "section 1",
+		"description" 	: "",
+		"tags"			: [],
+		"subsections"	: [
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"subsection 1",
+						"description"	:	"subsection 1 description",
+						"tags"			:	[],
+						"subsections"	: 	[]
+					},
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"subsection 2",
+						"description"	:	"subsection 2 description",
+						"tags"			:	[],
+						"subsections"	: 	[]
+					}
+				]
+	},
+	{
+		"type"			: "ButtonListWidget",
+		"title" 		: "section 2",
+		"description" 	: "",
+		"tags"			: [],
+		"subsections"	: [
+					{
+						"type"			: 	"ExtensionPanelWidget",
+						"title"			:	"subsection 3",
+						"description"	:	"subsection 3 description",
+						"tags"			:	[],
+						"subsections"	: 	[]
+					}
+				]
+	}
+]
