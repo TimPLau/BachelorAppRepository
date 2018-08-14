@@ -1,20 +1,20 @@
 ﻿[
 	{
-		"id"			: 	"1"
+		"id"			: 	"1",
 		"type"			: 	"ButtonListWidget",
 		"title" 		: 	"Formalien, Voraussetzungen und Fristen ",
 		"description" 	: 	"",
 		"subsections"	: 	["2", "3"]
 	},
 	{
-		"id"			: 	"2"
+		"id"			: 	"2",
 		"type"			: 	"ExtensionPanelWidget",
 		"title"			:	"Prüfung der Vorraussetzungen",
 		"description"	:	"Nachdem du einen Erstprüfer gefunden hast, etwa 3 Wochen vor Beginn der Abschlussarbeit, musst du im Sekretariat um Überprüfung der Zulassungsvoraussetzung bitten. Hierzu kannst du das entsprechende Formblatt im Sekretariat ausfüllen oder eine Mail an ei@fh-luebeck.de schicken.\n\nWenn alle Voraussetzungen gemäß der der für den Studiengang gültigen Prüfungsordnung erfüllt sind, erhält dein Erstprüfer eine E-Mail über die erfolgte Zulassung. Erst dann kann deine Arbeit angemeldet werden.",
 		"subsections"	: 	[]
 	},
 	{
-		"id"			: 	"3"
+		"id"			: 	"3",
 		"type"			: 	"ExtensionPanelWidget",
 		"title"			:	"Anmeldung",
 		"description"	:	"Dein Erstprüfer meldet nach der Zulassung dein Thema, ggf. die Aufgabenstellung und das offizielle Ausgabedatum an, ab dem die dreimonatige Frist beginnt.",
