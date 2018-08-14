@@ -1,117 +1,23 @@
 ﻿[
 	{
-		"type"			: "ButtonListWidget",
-		"title" 		: "Formalien, Voraussetzungen und Fristen ",
-		"description" 	: "",
-		"tags"			: [],
-		"subsections"	: [
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Prüfung der Vorraussetzungen",
-						"description"	:	"Nachdem du einen Erstprüfer gefunden hast, etwa 3 Wochen vor Beginn der Abschlussarbeit, musst du im Sekretariat um Überprüfung der Zulassungsvoraussetzung bitten. Hierzu kannst du das entsprechende Formblatt im Sekretariat ausfüllen oder eine Mail an ei@fh-luebeck.de schicken.\n\nWenn alle Voraussetzungen gemäß der der für den Studiengang gültigen Prüfungsordnung erfüllt sind, erhält dein Erstprüfer eine E-Mail über die erfolgte Zulassung. Erst dann kann deine Arbeit angemeldet werden.",
-						"tags"			:	[],
-						"subsections"	: 	[]
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Anmeldung",
-						"description"	:	"Dein Erstprüfer meldet nach der Zulassung dein Thema, ggf. die Aufgabenstellung und das offizielle Ausgabedatum an, ab dem die dreimonatige Frist beginnt.",
-						"tags"			:	[],
-						"subsections"	: []
-						
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Formblatt",
-						"description"	:	"Nachdem du mit deinem Erstprüfer das Thema ausgearbeitet hast, wird die Themenbeschreibung in das Formblatt eingetragen und ans Sekretariat geschickt. Daraufhin wird die offizielle Aufgabenstellung vom Sekretariat erstellt, wobei dir Ausgabe offiziell durch den Vorsitzenden des Prüfungsausschusses erfolgt. Die Aufforderung zum Abholen der offiziellen Aufgabenstellung kommt gegebenenfalls per Post.",
-						"tags"			:	[],
-						"subsections"	: []
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Bearbeitungszeit",
-						"description"	:	"Die Abschlussarbeit muss bis zu einem festen Termin fertiggestellt und entsprechend der Formalien abgegeben werden. Die Bearbeitungsdauer beträgt bei Bachelorarbeiten 3 Monate.\nDie Abgabefrist darf unter keinen Umständen versäumt werden, da die Arbeit ansonsten als nicht bestanden gilt. Eine Ausnahme davon besteht nur bei Fremdverschulden (z.B. wenn der Ansprechpartner in einer Firma benötigte Unterlagen nicht bereitgestellt hat) oder Krankheit. In diesen Fällen ist ein Antrag auf Verlängerung schriftlich vor Ablauf der Abgabefrist einzureichen. Eine Verlängerung der Abgabefrist, weil der Studierende sich bei der Zeitplanung verschätzt hat, ist nicht möglich. Das Thema kann einmal und nur innerhalb des ersten Drittels des Bearbeitungszeitraums gegenüber dem Prüfungsausschussvorsitzenden zurückgegeben werden. Sollte die Arbeit am Ende mit „nicht ausreichend“ bewertet werden, ist eine einmalige Wiederholung möglich (ein Antrag zur Wiederholung muss spätestens innerhalb der nächsten beiden Semester erfolgen).",
-						"tags"			:	[],
-						"subsections"	: []
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Abgabe der Arbeit",
-						"description"	:	"Du musst zwei Exemplare der Arbeit im Sekretariat des Fachbereichs abgeben, eine Abgabe ist auch per Post möglich. Hierbei ist das Datum des Poststempels entscheidend.\nAdresse: \nFachhochschule Lübeck\nFachbereich Elektrotechnik und Informatik, Prüfungsausschuss\nMönkhofer Weg 239\n23562 Lübeck\n\nZusätzlich zu deiner schriftlichen Abgabe musst du die Arbeit selbst und alle zugehörigen Materialien (z.B. Programmcode) auf eine CD brennen und hinten in der Arbeit mit abheften. Eines der Exemplare wird später archiviert. Das zweite dient zur Kontrolle durch den Erstprüfer und verbleibt dort",
-						"tags"			:	[],
-						"subsections"	: []
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Kolloquium",
-						"description"	:	"Das Kolloquium selber findet in einem Seminarraum oder kleinen Hörsaal statt. Beim Vortrag ist die Öffentlichkeit zugelassen, bei der Befragung durch die Prüfer nicht. Du solltest im Vorfeld das Vorhandensein der technischen Ausstattung sicherstellen und rechtzeitig erscheinen, um (oftmals auftretende) Schwierigkeiten, z.B. dass das Notebook nicht auf Anhieb den Beamer erkennt, vor Beginn des Kolloquiums beheben zu können. Am Ende des Kolloquiums soll die Präsentation zusätzlich beim Erstprüfer abgegeben werden.\n\nFür das Kolloquium musst du einen Foliensatz (z.B. eine PowerPoint-Präsentation) vorbereiten, der für eine Vortragsdauer von ca. 25 Minuten ausgelegt ist (Abweichungen sind insbesondere beim Online-Studium möglich, das musst du mit deinem Erstbetreuer absprechen). Hierbei ist zu beachten, dass üblicherweise 2 bis 3 Minuten für die Präsentation einer Folie geschätzt werden, also sollten ca. 10 Folien verwendet werden. Rechtschreibfehler auf den Folien sollten vermieden werden. Eine Tafel kann ebenfalls verwendet werden, genauso wie das Zeigen von Mustern oder einer Demonstration. Bei den Folien solltest du darauf achten, den Schwerpunkt auf die eigene Arbeit zu legen, d.h. angesichts der begrenzten Zeit nicht zu viel über den Hintergrund oder verwandte Arbeiten zu berichten. Oftmals bietet es sich an, sich an der Gliederung der Ausarbeitung zu orientieren, wobei im Vortrag keine Vollständigkeit angestrebt werden sollte, sondern einzelne Beispiele gezielt herausgesucht werden können. ",
-						"tags"			:	[],
-						"subsections"	: []
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Bewertung der Arbeit",
-						"description"	:	"Erstprüfer und Zweitprüfer werden gemeinsam die Noten für die schriftliche Ausarbeitung und die mündliche Prüfung festlegen. Um eine Vorstellung davon zu geben, welche Kriterien eine Rolle dabei spielen, ist im Bereich „Material“ ein Bewertungsbogen für den Possehlpreis hinterlegt. Jeder Prüfer kann jedoch eigene Kriterien verwenden und diese auch eigenständig gewichten",
-						"tags"			:	[],
-						"subsections"	: []
-					}
-				]
+		"id"			: 	"1"
+		"type"			: 	"ButtonListWidget",
+		"title" 		: 	"Formalien, Voraussetzungen und Fristen ",
+		"description" 	: 	"",
+		"subsections"	: 	["2", "3"]
 	},
 	{
-		"type"			: "ButtonListWidget",
-		"title" 		: "Erstbetreuer und Betreuung",
-		"description" 	: "",
-		"tags"			: [],
-		"subsections"	: [
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Was macht der Erstprüfer?",
-						"description"	:	"Der Erstprüfer betreut deine Abschlussarbeit, arbeitet gemeinsam mit dir dein Thema aus und meldet es für dich an. Außerdem stimmt er gemeinsam mit dem Zweitprüfer deine Note ab.",
-						"tags"			:	[],
-						"subsections"	: 	[]
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Wer kann dein Erstprüfer sein?",
-						"description"	:	"Dein Erstprüfer kann jedes Mitglied der Hochschule aus der Gruppe der Hochschullehrenden sein. Die Person muss in einem für deinen Studiengang relevanten Bereich tätig sein. Auch Lehrbeauftragte können als Mitglied der Hochschule nach Entscheidung des Prüfungsausschusses Abschlussarbeiten betreuen.",
-						"tags"			:	[],
-						"subsections"	: 	[]
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Unterschiede bei der Betreuung",
-						"description"	:	"Bei der Betreuung der Arbeiten während der Bearbeitungszeit ergeben sich Unterschiede zwischen internen und externen Arbeiten. In beiden Fällen ist es wichtig, dass du selbstständig auf deinen Erstprüfer zugehst, um Treffen zu vereinbaren, und ihm Zwischenstände und Berichte sinnvoll aufbereitet per E-Mail schickst.",
-						"tags"			:	[],
-						"subsections"	: 	[]
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Betreuung bei interner Arbeit",
-						"description"	:	"Bei einer internen Arbeit werden üblicherweise wöchentliche oder vierzehntägige Treffen vereinbart. Es ist in vielen Fällen ausreichend, wenn die durchgeführten und geplanten Aufgaben mündlich besprochen werden",
-						"tags"			:	[],
-						"subsections"	: 	[]
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Betreuung bei externer Arbeit",
-						"description"	:	"Bei einer externen Arbeit in einer Firma sind schriftliche Kurzberichte per E-Mail besser geeignet, die beispielsweise alle 3 Wochen verschickt werden. Während der Tätigkeit bei der externen Firma wird dich dein Erstprüfer je nach Bedarf besuchen. Die Terminabsprache des Besuches erfolgt am besten per E-Mail. Bei Abschlussarbeiten außerhalb des Raums Schleswig-Holstein, Hamburg, nördliches Niedersachsen wird die Firma gebeten, die Reisekosten des Besuches zu erstatten. Im Normalfall stellt dies bei den meisten Firmen kein Problem dar, denn es geht auch um die Wertschätzung des Studierenden und ggf. die Rekrutierung weiterer guter Mitarbeiter über den Erstprüfer.",
-						"tags"			:	[],
-						"subsections"	: 	[]
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Zwischenstände",
-						"description"	:	"Sowohl bei internen als auch bei externen Arbeiten schickst du dem Betreuer regelmäßig Zwischenstände der schriftlichen Ausarbeitung zu. Hierbei solltest du jeweils klare Versionsnummern verwenden und dem Erstprüfer deutlich kennzeichnen, welche Teile der Arbeit neu erstellt oder überarbeitet wurden. Damit wird dem Erstprüfer die Arbeit erleichtert.",
-						"tags"			:	[],
-						"subsections"	: 	[]
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"Aufbau der E-Mail an den Betreuer",
-						"description"	:	"Für die Zwischenstands-Mails bietet sich die folgende Gliederung an: \n \t - Name, Titel der Arbeit, Berichtsdatum, Berichtszeitraum \n \t-Stand (Implementierung, Messungen, Berechnungen, Simulationen)-Ergebnisse (gleiche Kategorie aber konkret, z.B.: Prototypenplatine gelötet)-Dokumentation (konkret, z.B. Kapitel Grundlagen fertig)-Planung für den nächsten Zeitraum (konkret: 1. Inbetriebnahme der Platine 1 Woche, Leistungsmessungen bis abgeschlossen und Messbericht geschrieben 30.6.; 2. ...). Diese Kurzberichte helfen auch bei der Planung und bei der Erkennung von Zeitproblemen.",
-						"tags"			:	[],
-						"subsections"	: 	[]
-					}
-				]
-	}
+		"id"			: 	"2"
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Prüfung der Vorraussetzungen",
+		"description"	:	"Nachdem du einen Erstprüfer gefunden hast, etwa 3 Wochen vor Beginn der Abschlussarbeit, musst du im Sekretariat um Überprüfung der Zulassungsvoraussetzung bitten. Hierzu kannst du das entsprechende Formblatt im Sekretariat ausfüllen oder eine Mail an ei@fh-luebeck.de schicken.\n\nWenn alle Voraussetzungen gemäß der der für den Studiengang gültigen Prüfungsordnung erfüllt sind, erhält dein Erstprüfer eine E-Mail über die erfolgte Zulassung. Erst dann kann deine Arbeit angemeldet werden.",
+		"subsections"	: 	[]
+	},
+	{
+		"id"			: 	"3"
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Anmeldung",
+		"description"	:	"Dein Erstprüfer meldet nach der Zulassung dein Thema, ggf. die Aufgabenstellung und das offizielle Ausgabedatum an, ab dem die dreimonatige Frist beginnt.",
+		"subsections"	: 	[]
+	},
 ]
