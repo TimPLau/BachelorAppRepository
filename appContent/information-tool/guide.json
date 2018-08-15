@@ -1,57 +1,581 @@
 ﻿[
 	{
-		"id"			: 	"ROOT_1_INFORMATION_FORMAILIEN",
+		"id"			: 	"ROOT_INFORMATION_FORMAILIEN",
 		"type"			: 	"ButtonListWidget",
 		"title" 		: 	"Formalien, Voraussetzungen und Fristen ",
 		"description" 	: 	"",
-		"subsections"	: 	["SUB_1", "SUB_2"]
+		"subsections"	: 	["INFORMATION_FORMAILIEN_VORAUSSETZUNGEN", "INFORMATION_FORMAILIEN_ANMELDUNG", "INFORMATION_FORMAILIEN_FORMBLATT", "INFORMATION_FORMAILIEN_BEARBEITUNGSZEIT", "INFORMATION_FORMAILIEN_ABGABE_DER_ARBEIT", "INFORMATION_FORMAILIEN_KOLLOQUIUM", "INFORMATION_FORMAILIEN_BEWERTUNG_DER_ARBEIT"]
 	},
-	{
-		"id"			: 	"SUB_1",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Prüfung der Vorraussetzungen",
-		"description"	:	"Nachdem du einen Erstprüfer gefunden hast, etwa 3 Wochen vor Beginn der Abschlussarbeit, musst du im Sekretariat um Überprüfung der Zulassungsvoraussetzung bitten. Hierzu kannst du das entsprechende Formblatt im Sekretariat ausfüllen oder eine Mail an ei@fh-luebeck.de schicken.\n\nWenn alle Voraussetzungen gemäß der der für den Studiengang gültigen Prüfungsordnung erfüllt sind, erhält dein Erstprüfer eine E-Mail über die erfolgte Zulassung. Erst dann kann deine Arbeit angemeldet werden.",
-		"subsections"	: 	[]
-	},
-	{
-		"id"			: 	"SUB_2",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Anmeldung",
-		"description"	:	"Dein Erstprüfer meldet nach der Zulassung dein Thema, ggf. die Aufgabenstellung und das offizielle Ausgabedatum an, ab dem die dreimonatige Frist beginnt.",
-		"subsections"	: 	[]
-	},
+			{
+				"id"			: 	"INFORMATION_FORMAILIEN_VORAUSSETZUNGEN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Prüfung der Vorraussetzungen",
+				"description"	:	"Nachdem du einen Erstprüfer gefunden hast, etwa 3 Wochen vor Beginn der Abschlussarbeit, musst du im Sekretariat um Überprüfung der Zulassungsvoraussetzung bitten.\nHierzu kannst du das entsprechende Formblatt im Sekretariat ausfüllen oder eine Mail an ei@fh-luebeck.de schicken.\n\nWenn alle Voraussetzungen gemäß der der für den Studiengang gültigen Prüfungsordnung erfüllt sind, erhält dein Erstprüfer eine E-Mail über die erfolgte Zulassung.\nErst dann kann deine Arbeit angemeldet werden.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FORMAILIEN_ANMELDUNG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Anmeldung",
+				"description"	:	"Dein Erstprüfer meldet nach der Zulassung dein Thema, ggf. die Aufgabenstellung und das offizielle Ausgabedatum an, ab dem die dreimonatige Frist beginnt.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FORMAILIEN_FORMBLATT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Formblatt",
+				"description"	:	"Nachdem du mit deinem Erstprüfer das Thema ausgearbeitet hast, wird die Themenbeschreibung in das Formblatt eingetragen und ans Sekretariat geschickt.\nDaraufhin wird die offizielle Aufgabenstellung vom Sekretariat erstellt, wobei dir Ausgabe offiziell durch den Vorsitzenden des Prüfungsausschusses erfolgt. Die Aufforderung zum Abholen der offiziellen Aufgabenstellung kommt gegebenenfalls per Post.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FORMAILIEN_BEARBEITUNGSZEIT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Bearbeitungszeit",
+				"description"	:	"Die Abschlussarbeit muss bis zu einem festen Termin fertiggestellt und entsprechend der Formalien abgegeben werden. Die Bearbeitungsdauer beträgt bei Bachelorarbeiten 3 Monate.\nDie Abgabefrist darf unter keinen Umständen versäumt werden, da die Arbeit ansonsten als nicht bestanden gilt. Eine Ausnahme davon besteht nur bei Fremdverschulden (z.B. wenn der Ansprechpartner in einer Firma benötigte Unterlagen nicht bereitgestellt hat) oder Krankheit. In diesen Fällen ist ein Antrag auf Verlängerung schriftlich vor Ablauf der Abgabefrist einzureichen. Eine Verlängerung der Abgabefrist, weil der Studierende sich bei der Zeitplanung verschätzt hat, ist nicht möglich.\n\nDas Thema kann einmal und nur innerhalb des ersten Drittels des Bearbeitungszeitraums gegenüber dem Prüfungsausschussvorsitzenden zurückgegeben werden. Sollte die Arbeit am Ende mit „nicht ausreichend“ bewertet werden, ist eine einmalige Wiederholung möglich (ein Antrag zur Wiederholung muss spätestens innerhalb der nächsten beiden Semester erfolgen).",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FORMAILIEN_ABGABE_DER_ARBEIT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Abgabe der Arbeit",
+				"description"	:	"Du musst zwei Exemplare der Arbeit im Sekretariat des Fachbereichs abgeben, eine Abgabe ist auch per Post möglich. Hierbei ist das Datum des Poststempels entscheidend.\nAdresse: \nFachhochschule Lübeck\nFachbereich Elektrotechnik und Informatik, Prüfungsausschuss\nMönkhofer Weg 239\n23562 Lübeck\n\nZusätzlich zu deiner schriftlichen Abgabe musst du die Arbeit selbst und alle zugehörigen Materialien (z.B. Programmcode) auf eine CD brennen und hinten in der Arbeit mit abheften.\nEines der Exemplare wird später archiviert. Das zweite dient zur Kontrolle durch den Erstprüfer und verbleibt dort",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FORMAILIEN_KOLLOQUIUM",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Kolloquium",
+				"description"	:	"Das Kolloquium selber findet in einem Seminarraum oder kleinen Hörsaal statt. Beim Vortrag ist die Öffentlichkeit zugelassen, bei der Befragung durch die Prüfer nicht.\n\nDu solltest im Vorfeld das Vorhandensein der technischen Ausstattung sicherstellen und rechtzeitig erscheinen, um (oftmals auftretende) Schwierigkeiten, z.B. dass das Notebook nicht auf Anhieb den Beamer erkennt, vor Beginn des Kolloquiums beheben zu können.\nAm Ende des Kolloquiums soll die Präsentation zusätzlich beim Erstprüfer abgegeben werden.\n\nFür das Kolloquium musst du einen Foliensatz (z.B. eine PowerPoint-Präsentation) vorbereiten, der für eine Vortragsdauer von ca. 25 Minuten ausgelegt ist (Abweichungen sind insbesondere beim Online-Studium möglich, das musst du mit deinem Erstbetreuer absprechen). Hierbei ist zu beachten, dass üblicherweise 2 bis 3 Minuten für die Präsentation einer Folie geschätzt werden, also sollten ca. 10 Folien verwendet werden. Rechtschreibfehler auf den Folien sollten vermieden werden. Eine Tafel kann ebenfalls verwendet werden, genauso wie das Zeigen von Mustern oder einer Demonstration.\n\nBei den Folien solltest du darauf achten, den Schwerpunkt auf die eigene Arbeit zu legen, d.h. angesichts der begrenzten Zeit nicht zu viel über den Hintergrund oder verwandte Arbeiten zu berichten. Oftmals bietet es sich an, sich an der Gliederung der Ausarbeitung zu orientieren, wobei im Vortrag keine Vollständigkeit angestrebt werden sollte, sondern einzelne Beispiele gezielt herausgesucht werden können.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FORMAILIEN_BEWERTUNG_DER_ARBEIT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Bewertung der Arbeit",
+				"description"	:	"Erstprüfer und Zweitprüfer werden gemeinsam die Noten für die schriftliche Ausarbeitung und die mündliche Prüfung festlegen.\nJeder Prüfer kann jedoch eigene Kriterien verwenden und diese auch eigenständig gewichten",
+				"subsections"	: 	[]
+			},
+	
+	
 	
 	{
-		"id"			: 	"ROOT_1_INFORMATION_METHODENUEBERSICHT",
+		"id"			: 	"ROOT_INFORMATION_BETREUUNG",
+		"type"			: 	"ButtonListWidget",
+		"title" 		: 	"Betreuung deiner Bachelorarbeit",
+		"description" 	: 	"",
+		"subsections"	: 	["INFORMATION_BETREUUNG_WAS_ERSTPRUEFER", "INFORMATION_BETREUUNG_WER_ERSTPRUEFER", "INFORMATION_BETREUUNG_ZWEITPRUEFER", "INFORMATION_BETREUUNG_UNTERSCHIEDE", "INFORMATION_BETREUUNG_INTERN", "INFORMATION_BETREUUNG_EXTERN", "INFORMATION_BETREUUNG_ZWISCHENSTAND", "INFORMATION_BETREUUNG_EMAIL"]
+	},
+			{
+				"id"			: 	"INFORMATION_BETREUUNG_WAS_ERSTPRUEFER",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Was macht der Erstprüfer?",
+				"description"	:	"Der Erstprüfer betreut deine Abschlussarbeit, arbeitet gemeinsam mit dir dein Thema aus und meldet es für dich an. Außerdem stimmt er gemeinsam mit dem Zweitprüfer deine Note ab.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_BETREUUNG_WER_ERSTPRUEFER",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Wer kann dein Erstprüfer sein?",
+				"description"	:	"Dein Erstprüfer kann jedes Mitglied der Hochschule aus der Gruppe der Hochschullehrenden sein. Die Person muss in einem für deinen Studiengang relevanten Bereich tätig sein.\nAuch Lehrbeauftragte können als Mitglied der Hochschule nach Entscheidung des Prüfungsausschusses Abschlussarbeiten betreuen.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_BETREUUNG_ZWEITPRUEFER",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Zweitprüfer",
+				"description"	:	"Etwa 4 Wochen vor Abgabe der Arbeit solltest du dich um einen Zweitprüfer kümmern. Die Person sollte sich mit dem Fachgebiet der Arbeit auskennen, sie wird gemeinsam mit dem Erstprüfer deine Note abstimmen. Dein Erstprüfer kann dir ggf. eine Empfehlung geben, wer für diese Aufgabe in Frage kommt. \n\nBeachte: Du bist für die Organisation und terminliche Koordination zuständig.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_BETREUUNG_UNTERSCHIEDE",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Unterschiede bei der Betreuung",
+				"description"	:	"Bei der Betreuung der Arbeiten während der Bearbeitungszeit ergeben sich Unterschiede zwischen internen und externen Arbeiten. In beiden Fällen ist es wichtig, dass du selbstständig auf deinen Erstprüfer zugehst, um Treffen zu vereinbaren, und ihm Zwischenstände und Berichte sinnvoll aufbereitet per E-Mail schickst.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_BETREUUNG_INTERN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Betreuung bei interner Arbeit",
+				"description"	:	"Bei einer internen Arbeit werden üblicherweise wöchentliche oder vierzehntägige Treffen vereinbart. Es ist in vielen Fällen ausreichend, wenn die durchgeführten und geplanten Aufgaben mündlich besprochen werden",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_BETREUUNG_EXTERN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Betreuung bei externer Arbeit",
+				"description"	:	"Bei einer externen Arbeit in einer Firma sind schriftliche Kurzberichte per E-Mail besser geeignet, die beispielsweise alle 3 Wochen verschickt werden.\n\nWährend der Tätigkeit bei der externen Firma wird dich dein Erstprüfer je nach Bedarf besuchen. Die Terminabsprache des Besuches erfolgt am besten per E-Mail. Bei Abschlussarbeiten außerhalb des Raums Schleswig-Holstein, Hamburg, nördliches Niedersachsen wird die Firma gebeten, die Reisekosten des Besuches zu erstatten. Im Normalfall stellt dies bei den meisten Firmen kein Problem dar, denn es geht auch um die Wertschätzung des Studierenden und ggf. die Rekrutierung weiterer guter Mitarbeiter über den Erstprüfer.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_BETREUUNG_ZWISCHENSTAND",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Zwischenstände",
+				"description"	:	"Sowohl bei internen als auch bei externen Arbeiten schickst du dem Betreuer regelmäßig Zwischenstände der schriftlichen Ausarbeitung zu. Hierbei solltest du jeweils klare Versionsnummern verwenden und dem Erstprüfer deutlich kennzeichnen, welche Teile der Arbeit neu erstellt oder überarbeitet wurden. Damit wird dem Erstprüfer die Arbeit erleichtert.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_BETREUUNG_EMAIL",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Aufbau der E-Mail an den Betreuer",
+				"description"	:	"Für die Zwischenstands-Mails bietet sich die folgende Gliederung an:\n-Name, Titel der Arbeit, Berichtsdatum\n-Stand (Implementierung, Messungen, Berechnungen, Simulationen)\n-Ergebnisse (gleiche Kategorie aber konkret, z.B.: Prototypenplatine gelötet)\n-Dokumentation (konkret, z.B. Kapitel Grundlagen fertig)\n-Planung für den nächsten Zeitraum (konkret: 1. Inbetriebnahme der Platine 1 Woche,Leistungsmessungen bis abgeschlossen und Messbericht geschrieben 30.6.; 2. ...).\n\nDiese Kurzberichte helfen auch bei der Planung und bei der Erkennung von Zeitproblemen.",
+				"subsections"	: 	[]
+			},
+
+
+			
+	{
+		"id"			: 	"ROOT_INFORMATION_THEMA",
+		"type"			: 	"ButtonListWidget",
+		"title" 		: 	"Betreuung",
+		"description" 	: 	"",
+		"subsections"	: 	["INFORMATION_THEMA_VORGEGEBEN", "INFORMATION_THEMA_EIGENES", "INFORMATION_THEMA_AUFGABENSTELLUNG", "INFORMATION_THEMA_SCHWIERIGKEITSGRAD", "INFORMATION_THEMA_FRAGEN", "INFORMATION_THEMA_ANSPRUCH", "INFORMATION_THEMA_BERUF", "INFORMATION_THEMA_FORMULIERTUNG_TITEL", "INFORMATION_THEMA_EINARBEITUNG", "INFORMATION_THEMA_FORMBLATT"]
+	},
+			{
+				"id"			: 	"INFORMATION_THEMA_VORGEGEBEN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Vorgegebenes Thema",
+				"description"	:	"Vielleicht stellt dein Erstprüfer schon Themen, einen Titel und eine Beschreibung der Aufgabenstellung bereit. Auch, wenn das Thema dann schon vorgegeben ist, solltest du mit deinem Erstprüfer Thema und Aufgabenstellung besprechen. Insbesondere die Aufgabenstellung kann hier noch geändert oder präzisiert werden.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_THEMA_EIGENES",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Eigenes Thema ",
+				"description"	:	"Wenn du einen Themenvorschlag hast, oder ein Thema von einem Unternehmen hast, für das du die Arbeit schreibst, muss die Aufgabenstellung gemeinsam mit dem Betreuer formuliert werden.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_THEMA_AUFGABENSTELLUNG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Entwicklung der Aufgabenstellung",
+				"description"	:	"Der Themenvorschlag sollte in Form einer schriftlichen Beschreibung des Themas von dir geliefert werden, die auf ein bis zwei Seiten erfolgen soll. Der mögliche Erstprüfer soll aus dieser Beschreibung erkennen können, ob sich das Thema für eine Abschlussarbeit eignet.\nDie Beschreibung soll den Entwurf einer Gliederung enthalten.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_THEMA_SCHWIERIGKEITSGRAD",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Schwierigkeitsgrad des Themas",
+				"description"	:	"Die Wahl des Themas sollte einen geeigneten Schwierigkeitsgrad und Umfang widerspiegeln. Das bedeutet, dass das Thema bei einer Bachelorarbeit in den drei Monaten zu bewältigen sein muss, wobei auch eventuelle Schwierigkeiten (schwer zu findende Programmierfehler; unklare Anforderungen, die erst später auffallen) berücksichtigt werden müssen.\nAuf der anderen Seite muss das Thema so sein, dass hierin die im Studium erworbenen Kenntnisse zum Tragen kommen.\nSehr häufig bietet sich eine Kombination von theoretischen Überlegungen zur Vorgehensweise in Kombination mit einer (prototypischen) praktischen Umsetzung an. Eine Themenstellung, die jedoch nur eine praktische Umsetzung von schon vorgegebenen Konzepten dargestellt, wäre zu wenig anspruchsvoll. ",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_THEMA_FRAGEN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Beantwortung der Fragen",
+				"description"	:	"Bei der Wahl des Themas und der Aufstellung der Gliederung sollten die folgenden Fragen beantwortet werden:\n\n–Wie lautet die Problemstellung?\n–Warum ist es wichtig, eine Lösung für die Problemstellung zu finden?\n\n–Warum sind bisherige Lösungen unzureichend?\n\n–Wie ist die Vorgehensweise, um das Problem zu lösen?\n\n–Wie kann (später) überprüft werden, ob die entwickelte Lösung tatsächlich das Problem löst? Dieses wird typischerweise durch einen Katalog von Kriterien erfolgen, der jedoch auch erst erstellt werden muss. ",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_THEMA_ANSPRUCH",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Anspruch der Arbeit",
+				"description"	:	"Auch wenn die Arbeit in Zusammenarbeit mit einer externen Firma durchgeführt wird,  muss die Arbeit weiterhin den wissenschaftlichen Ansprüchen genügen.\nDie Vorgehensweise in der Arbeit muss aus sachlichen Kriterien nachvollziehbar sein. Eine Argumentation, dass eine gewisse Vorgehensweise von Vorgesetzten in der Firma so vorgegeben ist, ist nicht geeignet.\nAußerdem soll die Arbeit eine gewisse Distanz zur Firma erkennen lassen, so dass das Thema nicht aus der Interessenlage der Firma heraus betrachtet wird. Auch in der späteren Ausarbeitung muss sich dies widerspiegeln, wo keinesfalls Werbeaussagen der Firma („Fa. X, der weltweit führende Hersteller von Produkt Y,  ...“) unkritisch übernommen werden dürfen. ",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_THEMA_BERUF",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Einbezug deiner beruflichen Aussichten",
+				"description"	:	"Du solltest bei der Wahl des Themas und auch bei einer eventuellen Kooperation mit einer Firma auch schon Überlegungen zu deinem beruflichen Werdegang mit einbeziehen. Zum Beispiel solltest du überlegen, ob eine Tätigkeit wie bei der Durchführung der Arbeit auch auf Dauer für dich interessant ist.\nDie Wahl des Themas wird in Einstellungsgesprächen thematisiert werden und kann ggf. hilfreich sein, um Kenntnisse für die zu vergebende Stelle nachzuweisen.  ",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_THEMA_FORMULIERTUNG_TITEL",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Formulierung des Titels",
+				"description"	:	"Die Formulierung des Titels der Arbeit sollte gründlich überlegt werden, damit eine möglichst klare Vorstellung vom Inhalt möglich ist, aber auch der Anspruch des Themas deutlich wird. Zu beachten ist, dass der Titel der Arbeit am Anfang festgelegt wird und später nicht mehr geändert werden kann.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_THEMA_EINARBEITUNG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Einarbeitung in das Thema",
+				"description"	:	"Zusammen mit dem Erstprüfer soll dann aus diesem Dokument die offizielle Aufgabenstellung als Word- oder einfache Textdatei erstellt werden.\n\nBei vielen Abschlussarbeiten erfolgt durch den Studierenden eine Einarbeitung in das Thema, bevor die Arbeit offiziell angemeldet wird. Insbesondere bei der Zusammenarbeit mit Firmen ist dies üblich.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_THEMA_FORMBLATT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Formblatt",
+				"description"	:	"Nachdem du mit deinem Erstprüfer das Thema ausgearbeitet hast, wird die Themenbeschreibung in das Formblatt eingetragen und ans Sekretariat geschickt.\nDaraufhin wird die offizielle Aufgabenstellung vom Sekretariat erstellt, wobei dir Ausgabe offiziell durch den Vorsitzenden des Prüfungsausschusses erfolgt. Die Aufforderung zum Abholen der offiziellen Aufgabenstellung kommt gegebenenfalls per Post.",
+				"subsections"	: 	[]
+			},
+		
+		
+		
+	{
+		"id"			: 	"ROOT_INFORMATION_AUFBAU",
+		"type"			: 	"ButtonListWidget",
+		"title" 		: 	"Aufbau und Struktur",
+		"description" 	: 	"",
+		"subsections"	: 	[
+		"INFORMATION_AUFBAU_DECKBLATT", 
+		"INFORMATION_AUFBAU_AUFGABENSTELLUNG", 
+		"INFORMATION_AUFBAU_ERLAERUNG",
+		"INFORMATION_AUFBAU_ZUSAMMENFASSUNG", 
+		"INFORMATION_AUFBAU_INHALTSVERZEICHNIS", 
+		"INFORMATION_AUFBAU_TABELLEN",
+		"INFORMATION_AUFBAU_EINLEITUNG", 
+		"INFORMATION_AUFBAU_HAUPTKAPITEL", 
+		"INFORMATION_AUFBAU_SCHLUSSKAPITEL", 
+		"INFORMATION_AUFBAU_DANKSAGUNG",
+		"INFORMATION_AUFBAU_ANHANG",
+		"INFORMATION_AUFBAU_LITERATUR",
+		"INFORMATION_AUFBAU_CD"]
+	},	
+			{
+				"id"			: 	"INFORMATION_AUFBAU_DECKBLATT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"1. Deckblatt",
+				"description"	:	"Das Deckblatt wird offiziell von der FH Lübeck bereitgestellt und vom Erstprüfer und dem Prüfungsausschuss (vertreten durch die/den Vorsitzende(n)) unterschrieben.\nDu erhältst ein Original und eine Kopie für die beiden offiziellen Versionen, die beim Sekretariat des Fachbereichs abzuholen sind.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_AUFBAU_AUFGABENSTELLUNG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"2. Aufgabenstellung",
+				"description"	:	"Die Aufgabenstellung enthält ein paar Hintergrundinformationen zum Thema der Arbeit, erklärt die wesentlichen Schritte bei der Bearbeitung des Themas und gibt die zu erzielenden Ergebnisse an.\nSie kann als eine Art Vertrag zwischen dem Studierenden und dem Erstprüfer angesehen werden. ",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_AUFBAU_ERLAERUNG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"3. Erklärung",
+				"description"	:	"Du musst eine Erklärung zur Abschlussarbeit abgeben, in der du erklärst, dass\n\n-die Arbeit von dir eigenständig ohne fremde Hilfe angefertigt wurde,\n-in der Arbeit von dir nur angegebene Quellen verwendet wurden,\n-du der Veröffentlichung der Arbeit zustimmst.\n\nDie ersten beiden Punkte sind verpflichtend. Der letzte Punkt ist optional. Bei Abschlussarbeiten, die in Firmen durchgeführt werden, ist oftmals vom Studierenden eine Vertraulichkeitserklärung (Nondisclosure Agreement) zu unterschreiben. Die Firmen sind in diesen Fällen typischerweise nicht mit der Veröffentlichung der Arbeit einverstanden, so dass der letzte Punkt der Erklärung entfernt wird.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_AUFBAU_ZUSAMMENFASSUNG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"4. Zusammenfassung",
+				"description"	:	"Eine Seite mit einer Zusammenfassung der Arbeit war früher vorgeschrieben und ist nun optional. Sie wird jedoch empfohlen, da man mit dieser Seite wichtige Angaben zur Arbeit auf einen Blick vorliegen hat.\nEine deutsch- und englischsprachige Zusammenfassung bietet sich an, die auch bei späteren Gelegenheiten (z.B. Vorstellungsgespräch) noch verwendet werden kann.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_AUFBAU_INHALTSVERZEICHNIS",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"5. Inhaltsverzeichnis",
+				"description"	:	"Das Inhaltsverzeichnis ist eine Liste aller Kapitel und Abschnitte zusammen mit Seitenzahlen. Es bietet sich an, das Verzeichnis automatisch erstellen zu lassen. Beim Inhaltsverzeichnis sollte beachtet werden, dass später die Arbeit ggf. quergelesen wird, wenn sich z.B. bei einer Bewerbung in einer Firma jemand einen allgemeinen Eindruck von der Arbeit verschaffen möchte. Daher sollten die Überschriften von Kapiteln und Abschnitten sinnvoll bezeichnet werden.\n\n Außerdem sollte überlegt werden, bis zu welcher Tiefe die Teile im Inhaltsverzeichnis aufgeführt werden sollen. Bei der Bereitstellung der Arbeit als PDF-Datei ist es günstig, wenn das Inhaltsverzeichnis mit den Abschnitten verknüpft ist, so dass das Anklicken einer Abschnittsüberschrift im Inhaltsverzeichnis zu einem Sprung in den entsprechenden Abschnitt führt. Ähnliches sollte auch für andere Verknüpfungen (z.B. zur Literaturliste) gelten.\n\nEs gibt Vorlagen für z.B. LaTeX, die diese Funktionalität enthalten, es sollte jedoch beim PDF-Export darauf geachtet werden, dass diese Funktion nicht verloren geht.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_AUFBAU_TABELLEN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"6. Liste der Abbildungen und Tabellen",
+				"description"	:	"Eine Abschlussarbeit enthält eine Liste der Abbildungen und eine Liste der Tabellen. Diese Listen sind meistens am Ende der Arbeit zu finden, können aber auch hier schon vorkommen.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_AUFBAU_EINLEITUNG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"7. Kapitel 1: Einleitung",
+				"description"	:	"Der Zweck des Anfangskapitels ist es, das Interesse des Lesers für das Thema zu wecken und auf die Themenstellung hinzuführen. Die Erstellung der Einleitung erfordert bereits eine Vorstellung vom Rest der Arbeit.\n\nDie Einleitung kann erst zum Ende der Arbeit erstellt werden oder könnte dann noch einmal überprüft werden. Die Einleitung sollte mindestens zwei grundlegende Abschnitte enthalten:\n\n-Hintergrundinformationen zur Hinführung auf die Themenstellung\n-Ziele der Arbeit\n\n Optional könnte eine Abgrenzung der Inhalte dieser Arbeit von anderen, verwandten Arbeiten sinnvoll sein (beispielsweise wenn die aktuelle Arbeit auf einer aus dem Vorjahr aufbaut).\n Abschließend soll dem Leser erklärt werden, wie die weitere Arbeit aufgebaut ist. Am günstigsten ist es meistens, kapitelweise zu erklären, was die jeweiligen Inhalte sind. Hiermit kann sich der Leser in einfacher Weise einen Überblick verschaffen, was von der Arbeit zu erwarten ist. Damit kann der Leser gegebenenfalls gezielt bestimmte Inhalte ansehen.\nEine klare Strukturierung macht die Arbeit viel leichter zugänglich.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_AUFBAU_HAUPTKAPITEL",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"8. Kapitel 2-n",
+				"description"	:	"Die weiteren Kapitel sind der eigentliche Kern der Arbeit. In diesen wird beschrieben, wie du die Aufgabenstellung schrittweise bearbeitet hast und wie die Ergebnisse erzielt wurden.\nEs gibt keine feste Struktur für diese Kapitel, da dieses von der Art des Projektes abhängt. \n\nUm für den Leser die Strukturierung klar zu machen, können am Anfang jedes Kapitels kurze Einleitungen und am Ende kurze Zusammenfassungen stehen. Damit diese Informationen zur Strukturierung nicht überhand nehmen, sollten nicht zu viele Kapitel vorkommen (z.B. 5 oder 6).\n iese Einleitungen und Zusammenfassungen sollen einen Mehrwert gegenüber dem Betrachten des Inhaltsverzeichnisses bieten.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_AUFBAU_SCHLUSSKAPITEL",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"9. Schlusskapitel",
+				"description"	:	"Das letzte Kapitel umfasst die wesentlichen Erkenntnisse der Arbeit und einen Ausblick. Die Zusammenfassung darf dabei die Kenntnis der eigentlichen Arbeit voraussetzen (im Gegensatz zur Aufgabenstellung am Anfang), aber auch hier sollte wieder an einen Querleser gedacht werden, der vieles überblättert und nur diesen Teil anschaut. Die Leistungen der Arbeit sollten also klar erkennbar sein.\nIm Ausblick werden Vorschläge für weitergehende Untersuchungen gemacht. Hierbei ist es möglich, auf die Erfüllung der Kriterien Bezug zu nehmen und für die Zukunft die Erfüllung optionaler Kriterien anzuregen.", 
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_AUFBAU_DANKSAGUNG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"10. Danksagung",
+				"description"	:	"Du hast die Möglichkeit einer Danksagung an Betreuer der Arbeit und weitere Unterstützer. Folgende Danksagungen bieten sich an:\n\n-Technischer Art (Bereitstellung von Materialien zur Durchführung der Arbeit)\n\n -Ratschläge (von Betreuer, weiteren Personen)\n\n-Finanziell (zum Beispiel Stipendien, Unterstützung durch Eltern)",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_AUFBAU_ANHANG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"11. Anhänge",
+				"description"	:	"Anhänge können Programmcodes, Abbildungen und weitere Materialien umfassen, die entweder zu lang sind, um sie in den Haupttext einzufügen, oder die interessant, aber nicht wesentlich für das Verständnis des Haupttextes sind.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_AUFBAU_LITERATUR",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"12. Literatur",
+				"description"	:	"In diesem Kapitel wird eine Liste der verwendeten Literatur angegeben, wobei diese Liste oftmals alphabetisch nach den Namen der Hauptautoren geordnet ist. In der Literaturliste dürfen nur Quellen vorkommen, auf die irgendwo im Text einmal verwiesen wird.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_AUFBAU_CD",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"13. CD",
+				"description"	:	"Die Arbeit an sich, aber insbesondere weitere Materialien sollen auf CDs gebrannt und am Ende der jeweiligen Arbeit beigefügt werden.",
+				"subsections"	: 	[]
+			},
+
+
+	
+	{
+		"id"			: 	"ROOT_INFORMATION_HINWEISE_ZUM_SCHREIBEN",
+		"type"			: 	"ButtonListWidget",
+		"title" 		: 	"Hinweise zum Schreiben",
+		"description" 	: 	"",
+		"subsections"	: 	[
+		"INFORMATION_HINWEISE_ZUM_SCHREIBEN_UMFANG", 
+		"INFORMATION_HINWEISE_ZUM_SCHREIBEN_KORREKTES_SCHREIBEN", 
+		"INFORMATION_HINWEISE_ZUM_SCHREIBEN_WISSEHSCHAFTLICHES_SCHREIBEN",
+		"INFORMATION_HINWEISE_ZUM_SCHREIBEN_ZEITEN", 
+		"INFORMATION_HINWEISE_ZUM_SCHREIBEN_FORMATIERUNG", 
+		"INFORMATION_HINWEISE_ZUM_SCHREIBEN_HERVORHEBUNGEN",
+		"INFORMATION_HINWEISE_ZUM_SCHREIBEN_QUELLEN", 
+		"INFORMATION_HINWEISE_ZUM_SCHREIBEN_BILDER", 
+		"INFORMATION_HINWEISE_ZUM_SCHREIBEN_TABELLEN", 
+		"INFORMATION_HINWEISE_ZUM_SCHREIBEN_PROGRAMMCODE",
+		"INFORMATION_HINWEISE_ZUM_SCHREIBEN_ABKUERZUNGEN",
+		"INFORMATION_HINWEISE_ZUM_SCHREIBEN_RECHTSCHREIBUNG"]
+	},	
+			{
+				"id"			: 	"INFORMATION_HINWEISE_ZUM_SCHREIBEN_UMFANG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Umfang der Arbeit",
+				"description"	:	"Für den Umfang der Arbeit kann keine spezifische Vorgabe gemacht werden, da dieses von der Art des Themas abhängt.\nBei einem Thema, das eine umfangreiche Literaturrecherche erfordert, kann eine längere Ausarbeitung notwendig sein als bei einem Thema, bei dem die praktische Umsetzung einen wesentlichen Bestandteil dargestellt. Empfehlungen könnten folgenermaßen aussehen:\n\n-Projektarbeit: minimal 10 Seiten + Anhänge (+CD), durchschnittlich 15 Seiten + Anhänge (+CD), maximal 30 Seiten + Anhänge (+CD)\n\n-Bachelorarbeit: minimal 30 Seiten + Anhänge + CD, durchschnittlich 45 Seiten + Anhänge + CD, maximal 100 Seiten + Anhänge + CD\n\n-Masterarbeit: minimal 60 Seiten + Anhänge + CD, durchschnittlich 75 Seiten + Anhänge + CD, maximal 130 Seiten + Anhänge + CD\n\nBeachte, dass der Umfang an sich kein Qualitätsmerkmal ist. Einsteins Doktorarbeit hatte 17 Seiten.\nIn der wissenschaftlichen Ausdrucksweise sollte auf Präzision anstelle von langwierigen Ausführungen geachtet werden.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_HINWEISE_ZUM_SCHREIBEN_KORREKTES_SCHREIBEN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Hinweise zum korrekten Schreiben",
+				"description"	:	"Eine Abschlussarbeit ist vergleichbar mit einem wissenschaftlichen Buch oder einem Forschungsbericht. Außerdem könnte die Abschlussarbeit auch als wissenschaftliches Dokument oder als Anleitung in einem Labor oder einer Firma weiterverwendet werden. Deshalb sollte das Dokument so geschrieben sein, dass die während der Erstellung der Abschlussarbeit durchgeführten Tätigkeiten nachvollzogen werden können. ",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_HINWEISE_ZUM_SCHREIBEN_WISSEHSCHAFTLICHES_SCHREIBEN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Wissenschaftliches Schreiben",
+				"description"	:	"Das wissenschaftliche Schreiben unterliegt formaleren Anforderungen, so dass umgangssprachliche Formulierungen nicht vorkommen sollten.\n\nBei der Verwendung von englischen Begriffen sollte jeweils abgewogen werden, ob eine sinnvolle deutschsprachige Übersetzung existiert oder ob der englische Begriff sich weitestgehend auch im deutschen etabliert hat. Im Übrigen ist zu beachten, dass mehrere englische Hauptworte hintereinander ohne Bindestrich geschrieben werden. Sind diese mit einem deutschen Wort verbunden, erfolgt ein Bindestrich (z.B. System Design-Projekt).\n\nEine andere wichtige Frage ist die Wahl zwischen aktiven und passiven Formulierungen. Ein Sachverhalt kann beispielsweise aktiv als „Ich führte Frequenzmessungen durch.“ formuliert werden. Diese Darstellung macht deutlich, was vom Autor selbst durchgeführt wurde und nicht von anderen. Diese Schreibweise ist jedoch in wissenschaftlichen Darstellungen unüblich und sollte in der Arbeit nur dort Anwendung finden, wenn Unklarheiten bestehen könnten, wer etwas gemacht hat.\nEs bietet sich außerdem eine Formulierung wie „Von der Autorin wurden Frequenzmessungen durchgeführt“ an. Meistens ist eine passive Formulierung wie „Es wurden Frequenzmessungen durchgeführt“ angezeigt.\nIn wissenschaftlichen Abhandlungen ist es zudem unüblich, die Leserin oder den Leser direkt anzusprechen.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_HINWEISE_ZUM_SCHREIBEN_ZEITEN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Verwendung von Zeiten",
+				"description"	:	"Normalerweise sollte die Arbeit im Präsens geschrieben werden, gerade wenn es um allgemeine Zusammenhänge geht. Wenn an manchen Stellen ein Ablauf geschildert werden soll, mit dem ein Ergebnis erreicht wurde, können auch Vergangenheitsformen verwendet werden. Hierbei sollte die Verwendung der Zeiten in sich schlüssig sein.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_HINWEISE_ZUM_SCHREIBEN_FORMATIERUNG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Korrekte Formatierung",
+				"description"	:	"Für die Formatierung gibt es die folgenden Vorschläge für sinnvolle Einstellungen:\n\nFont:  Arial, 11 Punkt oder Times New Roman, 12 Punkt; die Schriftgröße soll mindestens 11 Punkt betragen. Auf keinen Fall sollen Schmuck- oder Serifenschriften verwendet werden, um die Lesbarkeit nicht zu erschweren.\n\nSatz: Es soll Blocksatz verwendet werden. Große Lücken zwischen Wörtern sollen durch geeignete Trennungen vermieden werden.\n\nAbstände zum Seitenrand: Links 2,5 cm; Rechts 2,5 cm; Oben 2,5 cm; Unten 2,5 cm (bei sehr umfangreichen Arbeiten auch mehr Platz links, um die Bindung nicht zu sehr zu belasten)\n\nZeilenabstand: 1,5-facher Zeilenabstand.\n\nSeitenverwendung: Die Seiten sollten für die beiden Abgabeexemplare nur einseitig beschrieben werden.\n\nVerzeichnisse: Es gibt mehrere Verzeichnisse in der Arbeit, wie das Inhaltsverzeichnis, Abbildungsverzeichnis, usw. Es ist nicht notwendig, diese von Hand zu erstellen, da sie vom eigentlichen Text abgeleitet sind.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_HINWEISE_ZUM_SCHREIBEN_HERVORHEBUNGEN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Hervorhebungen",
+				"description"	:	"Für Hervorhebungen in Texten bietet sich die Verwendung von Fettdruck oder Kursivschrift an. Die Verwendung von Unterstreichungen oder GROSSBUCHSTABEN ist in wissenschaftlichen Texten unüblich. Solche Arten von Hervorhebungen sollten eher selten genutzt werden, z.B. bei der Kursivschrift zur Hervorhebung eines neuen Begriffes, der im umgebenden Text erklärt wird. Alternativ könnte dieser mit Anführungsstrichen geschrieben werden.\nDie Verwendung von Kursivschrift fällt dabei nicht so stark ins Auge wie der Fettdruck. Etwas kursiv Hervorgehobenes wird nur wahrgenommen, wenn der Text gelesen wird, während der Fettdruck auch beim Betrachten der ganzen Seite auffällt.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_HINWEISE_ZUM_SCHREIBEN_QUELLEN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Quellenangaben und Zitate",
+				"description"	:	"Auf Literatur muss verwiesen werden, wenn fremde Texte für die eigene Arbeit verwendet wurden. Es ist jeweils eine Referenz auf die Literaturliste vorzunehmen, die dann die Informationen zum Auffinden der Arbeit enthält. Für Zitierungen gibt es verschiedene Empfehlungen, wie diese genau aussehen sollen.\n\nDie Verwendung von Fußnoten ist möglich, wird jedoch nicht empfohlen, da dieses bei wiederholtem Bezug auf dieselbe Quelle zu einer Replikation der Informationen führt oder das Auffinden der ersten Fußnote notwendig macht. Fußnoten stören zudem den Lesefluss und ihre Verwendung ist bei Texten in der Elektrotechnik und Informatik im Gegensatz zu anderen Wissenschaftsdisziplinen eher unüblich.\nBei wörtlichen Zitaten müssen diese mit Anführungsstrichen deutlich gemacht werden. In der Elektrotechnik und Informatik sind wörtliche Zitate in vielen Fällen nicht zweckmäßig und sollten möglichst kurz ausfallen. Es ist besser die Sachverhalte in eigenen Worten wiederzugeben (aber natürlich weiterhin auf die Quelle zu verweisen).\nEine Ausnahme stellt die Definition von wichtigen Begriffen dar, bei der durch eine eigene Formulierung leicht die Präzision verloren gehen kann. In einem solchen Fall ist es günstig die Quelle exakt anzugeben, d.h. bei einem Buch die genaue Seite zu nennen.\n\nBeim Verweisen auf Internetseiten sollte beachtet werden, dass diese geändert werden können. Es sollte daher ein Hinweis gegeben werden, wann diese zuletzt überprüft wurde.\nAußerdem sollte die Internetseite, wenn möglich, heruntergeladen werden, damit der Bezug auf die Informationen weiterhin möglich bleibt.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_HINWEISE_ZUM_SCHREIBEN_BILDER",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Bilder",
+				"description"	:	"Abbildungen sind in vielen Fällen geeignet, um komplizierte Sachverhalte zu verdeutlichen. Auch wenn eine Abbildung möglichst selbsterklärend sein sollte, ist es auf jeden Fall notwendig, diese mit einer Bildunterschrift zu versehen, im Text mindestens einmal Bezug zu der Abbildung zu nehmen und die Abbildung zu erklären. Sollte die Abbildung aus einer Quelle übernommen sein, dann muss in der Bildunterschrift auf diese Quelle verwiesen werden.\n\nDie Abbildungen sollten einen klaren Mehrwert bringen. Dieses trifft beispielsweise nicht auf Firmenlogos zu. Außerdem sollten Screenshots nur wenig verwendet werden (eventuell zusätzlich im Anhang oder CD).\n\nDie Verwendung von farbigen Abbildungen kann problematisch sein, wenn die Arbeit nachher einmal auf schwarz/weiß ausgedruckt wird. Es ist zu empfehlen, die Abbildungen entweder nur in schwarz/weiß zu erstellen oder bei der Abgabe der Exemplare farbige Seiten einzufügen.\nInsgesamt sollte auf eine gute Qualität der Abbildungen geachtet werden, so dass z.B. die Schrift in den Abbildungen auf jeden Fall lesbar ist.\n\nBei der Benennung der Abbildungen ist eine kapitelweise Nummerierung oftmals günstiger als eine Nummerierung für das gesamte Dokument.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_HINWEISE_ZUM_SCHREIBEN_TABELLEN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Tabellen",
+				"description"	:	"Für Tabellen gelten ähnliche Randbedingungen wie für Abbildungen. Diese sollen eindeutig nummeriert, mit einer Tabellenunterschrift versehen, im Text referenziert und erklärt werden.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_HINWEISE_ZUM_SCHREIBEN_PROGRAMMCODE",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Programmcode",
+				"description"	:	"Bei studentischen Arbeiten, in denen Programmcode erstellt wird, kann dieser in der Arbeit diskutiert werden. Da der Programmcode in vielen Fällen umfangreich ist, sollten nur besonders wichtige Stellen des Codes dargestellt sein. Alternativ kann man gewisse Teile auch in einem Pseudocode ausdrücken, um das Verständnis zu erleichtern.\n\nDie Angabe des Programmcodes wird oftmals auch als Abbildung bezeichnet. Dieses bietet sich meistens an, anstatt eine weitere Kategorie von Programmcodes zu erstellen",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_HINWEISE_ZUM_SCHREIBEN_ABKUERZUNGEN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Abkürzungen und Begriffe",
+				"description"	:	"Abkürzungen kommen häufig vor, um die Lesbarkeit der Texte zu erleichtern. Hierbei gilt, dass die Abkürzungen beim ersten Auftreten im Text erklärt werden müssen. Sie sollten daher einmal im Text (nicht in einer Fußnote) ausgeschrieben und dahinter in Klammern erklärt werden. Später sollte die eingeführte Abkürzung dann stets verwendet und nicht noch einmal ausgeschrieben werden.\n\nBei Begriffen ist es wichtig, Unklarheiten zu vermeiden. Daher ist es im Gegensatz zu Texten in Prosa nicht günstig (wo man eine Eintönigkeit vermeiden möchte), unterschiedliche Begriffe für das gleiche Konzept zu verwenden (z.B. Computer, Rechner oder Maschine).\nEin Glossar sowie ein extra Verzeichnis für Abkürzungen sind für studentische Abschlussarbeiten (abgesehen von Promotionen und Habilitationen) nicht notwendig. Ebenso wird kein Stichwortindex benötigt.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_HINWEISE_ZUM_SCHREIBEN_RECHTSCHREIBUNG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Rechtschreibung",
+				"description"	:	"Rechtschreibfehler und falsche Grammatik (insbesondere Kommafehler) machen einen schlechten Eindruck und sollten vermieden werden. Neben der Verwendung einer automatischen Rechtschreibprüfung sollten weitere Personen die Arbeit vor der Abgabe auf diese Aspekte überprüfen.\nAnsonsten entsteht der Eindruck, dass vielleicht nicht nur sprachlich, sondern auch bezüglich der Inhalte nur oberflächlich gearbeitet wurde.",
+				"subsections"	: 	[]
+			},
+	
+	
+	
+	{
+		"id"			: 	"ROOT_INFORMATION_FAQ",
+		"type"			: 	"ButtonListWidget",
+		"title" 		: 	"Häufig gestellte Fragen",
+		"description" 	: 	"",
+		"subsections"	: 	[
+		"INFORMATION_FAQ_QUELLCODE", 
+		"INFORMATION_FAQ_CD_QUELLE", 
+		"INFORMATION_FAQ_BINDUNG",
+		"INFORMATION_FAQ_GEISTIGES_EIGENTUM", 
+		"INFORMATION_FAQ_FIRMENQUELLEN", 
+		"INFORMATION_FAQ_FARBIGER_DRUCK",
+		"INFORMATION_FAQ_DANKSAGUNG", 
+		"INFORMATION_FAQ_KORREKTURLESEN", 
+		"INFORMATION_FAQ_ENGLISCHE_BEGRIFFE", 
+		"INFORMATION_FAQ_BEWERTUNG",
+		"INFORMATION_FAQ_PLAGIATERKENNUNG",
+		"INFORMATION_FAQ_SCHREIBSTIL_ZEIT",
+		"INFORMATION_FAQ_LITERATURVERZEICHNIS",
+		"INFORMATION_FAQ_INDEX_QUELLEN"]
+	},
+			{
+				"id"			: 	"INFORMATION_FAQ_QUELLCODE",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Soll der Quellcode m Anhang zu finden sein?",
+				"description"	:	"Ja, falls der Code nicht zu umfangreich ist. Ansonsten muss er auf CD bereitgestellt werden, wobei dieses durch entsprechende Hinweise im Text deutlich gemacht werden muss.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FAQ_CD_QUELLE",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Ich beziehe mich auf Teile des Quellcodes, aber dieser ist nur auf der CD vorhanden. Ist das günstig? ",
+				"description"	:	"In diesem Fall sollten diese Teile in sinnvollen Ausschnitten im Text auftreten.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FAQ_BINDUNG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Wie soll die Arbeit gebunden werden?",
+				"description"	:	"Bei dünnen Arbeiten reicht nur eine Klebung. Bei über 80 Seiten ist aber eine Heftung plus Klebung notwendig.\nEs macht keinen guten Eindruck, wenn die Arbeit beim Durchlesen durch die Prüfer auseinanderfällt.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FAQ_GEISTIGES_EIGENTUM",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Sind besondere Erklärungen zum geistigen Eigentum notwendig?",
+				"description"	:	"Das ist nicht erforderlich, wenn nach den beschriebenen Regeln vorgegangen und zitiert wird. Es ist dann sowieso nicht sinnvoll, seitenlang aus Quellen abzuschreiben.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FAQ_FIRMENQUELLEN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Wie geht man mit firmeninternen Quellen um?",
+				"description"	:	"Diese können ebenfalls als Literatur angeben werden, z.B.: [7] x,y,z.doc Schriftstuck Fa. X, Ort Y, internes Aktenzeichen abcde, Abteilung zz ",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FAQ_FARBIGER_DRUCK",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Darf die Arbeit farbig gedruckt werden?",
+				"description"	:	"Ja, aber in gleicher Art und Weise bei den beiden Exemplaren.\nBeachte, dass die Druckkosten dann in der Regel höher ausfallen.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FAQ_DANKSAGUNG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Darf ich jedem danken, den ich möchte (z.B. meinem Hund)?",
+				"description"	:	"Manche Firmen empfinden Danksagungen und Widmungen vorne in der Abschlussarbeit als unpassend. Wenn eine Danksagung dieser Art erfolgen soll, dann besser am Ende der Arbeit.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FAQ_KORREKTURLESEN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Ich kenne keinen Lehrer, Lektor, etc., der meine Arbeit Korrekturlesen könnte. Was kann ich tun?",
+				"description"	:	"Zunächst einmal sollte die Rechtschreibprüfung des Texteditors eingeschaltet werden (und zwar schon zu Beginn des Zusammenschreibens, da die Rechtschreibprüfung neue Begriffe hinzulernen soll).\nZusätzlich sollte man Geschwister/Eltern/Freunde bitten, die Arbeit durchzulesen.\nGgf. kann auch der Betreuer in der Firma kritische Anmerkungen geben, wobei die Firmenmitarbeiter oftmals viel Zeit zum Lesen benötigen. ",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FAQ_ENGLISCHE_BEGRIFFE",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Wie soll man mit englischen Begriffen umgehen? ",
+				"description"	:	"Es sollte zunächst versucht werden, diese zu vermeiden. Oftmals gibt es sinnvolle deutsche Begriffe. Falls das nicht möglich ist, sollten die Begriffe im Text erklärt werden.\nInsgesamt muss der Text für einen Leser mit durchschnittlichen Fachkenntnissen verständlich sein.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FAQ_BEWERTUNG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Wie wird die Arbeit bewertet?",
+				"description"	:	"Jeder Prüfer hat dafür ein eigenes Bewertungsschema, wobei oftmals viele der folgenden Kriterien betrachtet werden:\n\n-fachlicher Inhalt und Ausdrucksweise\n-wesentliche und unwesentliche Punkte\n-Gliederung und Aufbau der Arbeit\n-Texte und Bilder\n-Vollständigkeit\n-Gestaltung Anhang\n-Literaturverzeichnis mit Querchecks\n-eigene Kreationen oder „raubkopiert“ \n -ingenieurmäßiges Denken und die Darstellung dieser Aspekte\n-Betreuungsaufwand\n\nGgf. zusammen mit der Beurteilung durch eine Firma ergibt sich erfahrungsgemäß ein sehr gutes Bild, wobei die Firmen oft eher schlechter beurteilen.\nDie Prüfer bestimmen letztendlich die Note und die Abschlussarbeit ist „die Urkunde“. ",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FAQ_PLAGIATERKENNUNG",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Können die Prüfer erkennen, wenn Passagen aus dem Internet herauskopiert sind?",
+				"description"	:	"Hierfür steht eine spezielle Software zur Verfügung, die alle Passagen der Arbeit mit dem Internet vergleicht. \n Diese Software wurde speziell für Schulen und Hochschulen entwickelt. ",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FAQ_SCHREIBSTIL_ZEIT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Schreibe ich in der Präsensform oder muss ich oft „wurde gemacht“ und „dann wurde“ benutzen?",
+				"description"	:	"Hier gibt es unterschiedliche Auffassungen. Einige Studierende bevorzugen die Vergangenheitsform, andere dagegen die Gegenwartsform.\nWichtig: Es sollte darauf geachtet werden, die einmal gewählte Zeitform konsequent beizubehalten und niemals in der „Ich-Form“ zu schreiben.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FAQ_LITERATURVERZEICHNIS",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Wie sollte das Literaturverzeichnis in der Arbeit organisiert werden?",
+				"description"	:	"Verwende hierzu z.B. eine BibTeX-Datei und trage die Angaben zu den Literaturstellen ein. Sobald ein Zitat verwendet wird und eine Neukompilation (inklusive der BibTeX-Datei) erfolgt, wird ein entsprechender Eintrag im Literaturverzeichnis erzeugt. ",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"INFORMATION_FAQ_INDEX_QUELLEN",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Wie kann ich den Index der Quellen und Abbildungen aktualisieren, wenn ich Änderungen vorgenommen habe?",
+				"description"	:	"Hierzu ist eine zweifache Neukompilation erforderlich.",
+				"subsections"	: 	[]
+			},
+			
+	
+	
+	{
+		"id"			: 	"ROOT_INFORMATION_METHODENUEBERSICHT",
 		"type"			: 	"ButtonListWidget",
 		"title" 		: 	"Methodenübersicht",
 		"description" 	: 	"",
 		"subsections"	: 	["ANF_IST_ANALYSE", "ANF_SOLL_ANALYSE", "ANF_SPEZIFIKATION"]
 	},
+			{
+				"id"			: 	"ANF_IST_ANALYSE",
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"Bestimmung der Ist-Situatuion",
+				"description"	:	"",
+				"subsections"	: 	["ANF_IST_ANALYSE_INHALT", "ANF_IST_ANALYSE_WERKZEUGE"]
+			},
+			{
+				"id"			: 	"ANF_IST_ANALYSE_INHALT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Worauf kommt es an?",
+				"description"	:	"Ziel der Ist-Analyse stellt das Vervollständigen des Verständnisses für die Welt, in der die jeweilige Softwarelösung angestrebt wird.\n\nVersuche dich dabei auf das Problem zu konzentrieren und bedenke, dass dieser Schritt je nach Komplexität des Projektes sehr umfangreich ausfallen kann.  Es ist deshalb zwingend notwendig sich rechtzeitig eine Strategie zu überlegen und sich auf die wesentlichen Punkte zu konzentrieren.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"ANF_IST_ANALYSE_WERKZEUGE",
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"Werkzeuge und Methoden",
+				"description"	:	"",
+				"subsections"	: 	["WERKZEUGE_METHODEN_DATENERHEBUNG_BEFRAGUNGEN", "WERKZEUGE_METHODEN_DATENERHEBUNG_BEOBACHTUNGEN", "WERKZEUGE_METHODEN_DATENERHEBUNG_ANALYSE_ALTSYSTEM", "WERKZEUGE_METHODEN_DATENERHEBUNG_USERSTORIES"]
+			},
 	
-	{
-		"id"			: 	"ANF_IST_ANALYSE",
-		"type"			: 	"ButtonListWidget",
-		"title"			:	"Bestimmung der Ist-Situatuion",
-		"description"	:	"",
-		"subsections"	: 	["ANF_IST_ANALYSE_INHALT", "ANF_IST_ANALYSE_WERKZEUGE"]
-	},
-	{
-		"id"			: 	"ANF_IST_ANALYSE_INHALT",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Worauf kommt es an?",
-		"description"	:	"Ziel der Ist-Analyse stellt das Vervollständigen des Verständnisses für die Welt, in der die jeweilige Softwarelösung angestrebt wird.\n\nVersuche dich dabei auf das Problem zu konzentrieren und bedenke, dass dieser Schritt je nach Komplexität des Projektes sehr umfangreich ausfallen kann.  Es ist deshalb zwingend notwendig sich rechtzeitig eine Strategie zu überlegen und sich auf die wesentlichen Punkte zu konzentrieren.",
-		"subsections"	: 	[]
-	},
-	{
-		"id"			: 	"ANF_IST_ANALYSE_WERKZEUGE",
-		"type"			: 	"ButtonListWidget",
-		"title"			:	"Werkzeuge und Methoden",
-		"description"	:	"",
-		"subsections"	: 	["WERKZEUGE_METHODEN_DATENERHEBUNG_BEFRAGUNGEN", "WERKZEUGE_METHODEN_DATENERHEBUNG_BEOBACHTUNGEN", "WERKZEUGE_METHODEN_DATENERHEBUNG_ANALYSE_ALTSYSTEM", "WERKZEUGE_METHODEN_DATENERHEBUNG_USERSTORIES"]
-	},
-	
-	
+
 	
 	{
 		"id"			: 	"ANF_SOLL_ANALYSE",
@@ -60,20 +584,20 @@
 		"description"	:	"",
 		"subsections"	: 	["ANF_SOLL_ANALYSE_INHALT", "ANF_SOLL_ANALYSE_WERKZEUGE"]
 	},
-	{
-		"id"			: 	"ANF_SOLL_ANALYSE_INHALT",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Worauf kommt es an?",
-		"description"	:	"Ziel der Soll-Analyse stellt das Aufdecken bisheriger Schwachstellen durch die angestrebte Softwarelösung dar.\n\nDie Analyse der erfassten Daten (Ist-Analyse) deckt die Schwachstellen auf, die du mit einer softwaretechnischen Lösung beseitigen sollst. Der nächste Schritt ist nun auszuarbeiten, was die softwaretechnische Lösung dazu leisten muss (Soll-Analyse). Die Soll-Analyse muss die Anforderungen an die zu implementierende Software aufstellen. Dazu gehört auch, diese Anforderungen hinsichtlich ihrer Machbarkeit und Folgen einzuschätzen\n\nPass auf, dass du dich vor den Kunden an dieser Stelle nicht in der technischen, sondern weiterhin auf der abstrakten Ebene bewegst. Denke immer daran, dass der Kunde unter Umständen sowieso schon Schwierigkeiten bei der Vermittlung von seinen Vorstellungen hat. ",
-		"subsections"	: 	[]
-	},
-	{
-		"id"			: 	"ANF_SOLL_ANALYSE_WERKZEUGE",
-		"type"			: 	"ButtonListWidget",
-		"title"			:	"Werkzeuge und Methoden",
-		"description"	:	"",
-		"subsections"	: 	["WERKZEUGE_METHODEN_PROTOTYPING"]
-	},
+			{
+				"id"			: 	"ANF_SOLL_ANALYSE_INHALT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Worauf kommt es an?",
+				"description"	:	"Ziel der Soll-Analyse stellt das Aufdecken bisheriger Schwachstellen durch die angestrebte Softwarelösung dar.\n\nDie Analyse der erfassten Daten (Ist-Analyse) deckt die Schwachstellen auf, die du mit einer softwaretechnischen Lösung beseitigen sollst. Der nächste Schritt ist nun auszuarbeiten, was die softwaretechnische Lösung dazu leisten muss (Soll-Analyse). Die Soll-Analyse muss die Anforderungen an die zu implementierende Software aufstellen. Dazu gehört auch, diese Anforderungen hinsichtlich ihrer Machbarkeit und Folgen einzuschätzen\n\nPass auf, dass du dich vor den Kunden an dieser Stelle nicht in der technischen, sondern weiterhin auf der abstrakten Ebene bewegst. Denke immer daran, dass der Kunde unter Umständen sowieso schon Schwierigkeiten bei der Vermittlung von seinen Vorstellungen hat. ",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"ANF_SOLL_ANALYSE_WERKZEUGE",
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"Werkzeuge und Methoden",
+				"description"	:	"",
+				"subsections"	: 	["WERKZEUGE_METHODEN_PROTOTYPING"]
+			},
 	
 	
 	{
@@ -83,20 +607,20 @@
 		"description"	:	"",
 		"subsections"	: 	["ANF_SPEZIFIKATION_INHALT", "ANF_SPEZIFIKATION_WERKZEUGE"]
 	},
-	{
-		"id"			: 	"ANF_SPEZIFIKATION_INHALT",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Worauf kommt es an?",
-		"description"	:	"Um die Anforderungen spezifizieren zu können, werden die Ergebnisse aus der zuvor durchgeführten Anforderungsermittlung genutzt.\n\nIn diesem Abschnitt der Anforderungsanalyse geht es darum, dass du die ermittelten Anforderungen schrittweise in eine von dir gewählte Anforderungsschablone überführst und somit präzisierst und genau beschreibst. \n\nStelle sicher, dass du hierbei sehr präzise vorgehst und dich nicht auf Implementierungsdetails beziehst.",
-		"subsections"	: 	[]
-	},
-	{
-		"id"			: 	"ANF_SPEZIFIKATION_WERKZEUGE",
-		"type"			: 	"ButtonListWidget",
-		"title"			:	"Werkzeuge und Methoden",
-		"description"	:	"",
-		"subsections"	: 	["WERKZEUGE_METHODEN_ANFORDERUNGSSCHABLONEN"]
-	},
+			{
+				"id"			: 	"ANF_SPEZIFIKATION_INHALT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Worauf kommt es an?",
+				"description"	:	"Um die Anforderungen spezifizieren zu können, werden die Ergebnisse aus der zuvor durchgeführten Anforderungsermittlung genutzt.\n\nIn diesem Abschnitt der Anforderungsanalyse geht es darum, dass du die ermittelten Anforderungen schrittweise in eine von dir gewählte Anforderungsschablone überführst und somit präzisierst und genau beschreibst. \n\nStelle sicher, dass du hierbei sehr präzise vorgehst und dich nicht auf Implementierungsdetails beziehst.",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"ANF_SPEZIFIKATION_WERKZEUGE",
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"Werkzeuge und Methoden",
+				"description"	:	"",
+				"subsections"	: 	["WERKZEUGE_METHODEN_ANFORDERUNGSSCHABLONEN"]
+			},
 	
 	
 	
@@ -107,20 +631,20 @@
 		"description"	:	"",
 		"subsections"	: 	["ARBEITSSCHRITT_BESTIMMUNG_STAKEHOLDER_INHALT", "ARBEITSSCHRITT_BESTIMMUNG_STAKEHOLDER_ERGEBNISSE"]
 	},
-	{
-		"id"			: 	"ARBEITSSCHRITT_BESTIMMUNG_STAKEHOLDER_INHALT",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Worauf kommt es an?",
-		"description"	:	"Im Rahmen der Bestimmung von Stakeholdern geht es um das Präzisieren von Eigenschaften der verschiedenen Interessenparteien, welche Einfluss auf dein Projekt haben.\n\nEs ist deshalb wichtig, sich die folgenden Fragen zu stellen:\n\nWelche Rolle hat der Stakeholder?\n\nWie beschreibe ich den Stakeholder am besten?\n\nKann ich konkrete Vertreter der Stakeholder ausmachen? Ist die Erreichbarkeit dieser Personen eingeschränkt? \n\nWelche Kompetenzgebiete erfüllen die einzelnen Stakeholder?\n\nWarum muss ich die Stakeholder in das Projekt einbeziehen?\n\nWelche Einstellung hat der jeweilige Stakeholder zum Projekt und wie sehen deren Erwartungen aus?\n\nWie stehen die Stakeholder untereinander in Beziehung?\n\nGibt es Interessenkonflikte unter den Stakeholdern? Wie können diese gelöst werden?\n\nGibt es Risiken für das Projekt? Wie können diese gesenkt werden?\n\n\nGrundsätzlich ist es wichtig, dass Stakeholder in das Projekt einbezogen werden. Dabei gibt es verschiedene Möglichkeiten, welche hinsichtlich des Arbeits- und Zeitumfangs sowie der Qualität der Ergebnisse unterschiedlich Komplex ausfallen. ",
-		"subsections"	: 	[]
-	},
-	{
-		"id"			: 	"ARBEITSSCHRITT_BESTIMMUNG_STAKEHOLDER_ERGEBNISSE",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Ergebnisse der Stakeholderanalyse",
-		"description"	:	"Nach Abschluss der Stakeholderanalyse hat man beispielsweise folgende dokumentierte Ergebnisse vorliegen:\n\nStakeholder-Portfolio\n\nStakeholder-Maßnahmenkatalog",
-		"subsections"	: 	[]
-	},
+			{
+				"id"			: 	"ARBEITSSCHRITT_BESTIMMUNG_STAKEHOLDER_INHALT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Worauf kommt es an?",
+				"description"	:	"Im Rahmen der Bestimmung von Stakeholdern geht es um das Präzisieren von Eigenschaften der verschiedenen Interessenparteien, welche Einfluss auf dein Projekt haben.\n\nEs ist deshalb wichtig, sich die folgenden Fragen zu stellen:\n\nWelche Rolle hat der Stakeholder?\n\nWie beschreibe ich den Stakeholder am besten?\n\nKann ich konkrete Vertreter der Stakeholder ausmachen? Ist die Erreichbarkeit dieser Personen eingeschränkt? \n\nWelche Kompetenzgebiete erfüllen die einzelnen Stakeholder?\n\nWarum muss ich die Stakeholder in das Projekt einbeziehen?\n\nWelche Einstellung hat der jeweilige Stakeholder zum Projekt und wie sehen deren Erwartungen aus?\n\nWie stehen die Stakeholder untereinander in Beziehung?\n\nGibt es Interessenkonflikte unter den Stakeholdern? Wie können diese gelöst werden?\n\nGibt es Risiken für das Projekt? Wie können diese gesenkt werden?\n\n\nGrundsätzlich ist es wichtig, dass Stakeholder in das Projekt einbezogen werden. Dabei gibt es verschiedene Möglichkeiten, welche hinsichtlich des Arbeits- und Zeitumfangs sowie der Qualität der Ergebnisse unterschiedlich Komplex ausfallen. ",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"ARBEITSSCHRITT_BESTIMMUNG_STAKEHOLDER_ERGEBNISSE",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Ergebnisse der Stakeholderanalyse",
+				"description"	:	"Nach Abschluss der Stakeholderanalyse hat man beispielsweise folgende dokumentierte Ergebnisse vorliegen:\n\nStakeholder-Portfolio\n\nStakeholder-Maßnahmenkatalog",
+				"subsections"	: 	[]
+			},
 	
 	
 	
@@ -131,20 +655,20 @@
 		"description"	:	"",
 		"subsections"	: 	["ARBEITSSCHRITT_BESTIMMUNG_PROJEKTUMFELD_INHALT", "ARBEITSSCHRITT_BESTIMMUNG_PROJEKTUMFELD_ERGEBNISSE"]
 	},
-	{
-		"id"			: 	"ARBEITSSCHRITT_BESTIMMUNG_PROJEKTUMFELD_INHALT",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Worauf kommt es an?",
-		"description"	:	"Es ist sehr wichtig, dass das Projektumfeld kennen gelernt wird. Aus diesem Grund sollte versucht werden möglichst viele Inforationen aus dem Umfeld zu studierend.\nFolgende Untersuchungspunkte könnten aufschlussreiche Informationen zu dem Projektumfeld enthalten:\n\nStruktur der Zielorganisation\n\nArt der anfallenden Aufgaben\n\nKommunikation innerhalb der Zielorganisation\n\nVorliegende Dokumente\n\nDaten der Zielorganisation\n\nSchwachstellen in der Organisation\n\nWas sind die Auffälligkeiten des Projektumfeldes?\n\nGibt es Schwachstellen im Projektumfeld?\n\nWelchen Rahmenbedingungen sind gegeben?",
-		"subsections"	: 	[]
-	},
-	{
-		"id"			: 	"ARBEITSSCHRITT_BESTIMMUNG_PROJEKTUMFELD_WERKZEUGE",
-		"type"			: 	"ButtonListWidget",
-		"title"			:	"Ergebnisse der Analyse des Projektumfeldes",
-		"description"	:	"",
-		"subsections"	: 	["WERKZEUGE_METHODEN_KREATIVTECHNIKEN_MINDMAP"]
-	},
+			{
+				"id"			: 	"ARBEITSSCHRITT_BESTIMMUNG_PROJEKTUMFELD_INHALT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Worauf kommt es an?",
+				"description"	:	"Es ist sehr wichtig, dass das Projektumfeld kennen gelernt wird. Aus diesem Grund sollte versucht werden möglichst viele Inforationen aus dem Umfeld zu studierend.\nFolgende Untersuchungspunkte könnten aufschlussreiche Informationen zu dem Projektumfeld enthalten:\n\nStruktur der Zielorganisation\n\nArt der anfallenden Aufgaben\n\nKommunikation innerhalb der Zielorganisation\n\nVorliegende Dokumente\n\nDaten der Zielorganisation\n\nSchwachstellen in der Organisation\n\nWas sind die Auffälligkeiten des Projektumfeldes?\n\nGibt es Schwachstellen im Projektumfeld?\n\nWelchen Rahmenbedingungen sind gegeben?",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"ARBEITSSCHRITT_BESTIMMUNG_PROJEKTUMFELD_WERKZEUGE",
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"Ergebnisse der Analyse des Projektumfeldes",
+				"description"	:	"",
+				"subsections"	: 	["WERKZEUGE_METHODEN_KREATIVTECHNIKEN_MINDMAP"]
+			},
 	
 	
 	
@@ -155,13 +679,13 @@
 		"description"	:	"",
 		"subsections"	: 	["WERKZEUGE_METHODEN_KREATIVTECHNIKEN_MINDMAP_INHALT"]
 	},
-	{
-		"id"			: 	"WERKZEUGE_METHODEN_KREATIVTECHNIKEN_MINDMAP_INHALT",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Worauf kommt es an?",
-		"description"	:	"Beschreibung",
-		"subsections"	: 	[]
-	},
+			{
+				"id"			: 	"WERKZEUGE_METHODEN_KREATIVTECHNIKEN_MINDMAP_INHALT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Worauf kommt es an?",
+				"description"	:	"Beschreibung",
+				"subsections"	: 	[]
+			},
 	
 	
 	
@@ -172,20 +696,20 @@
 		"description"	:	"",
 		"subsections"	: 	["WERKZEUGE_METHODEN_ANFORDERUNGSSCHABLONEN_NATUERLICHSPRACHIGE_INHALT", "WERKZEUGE_METHODEN_ANFORDERUNGSSCHABLONEN_NICHTNATUERLICHSPRACHIGE_INHALT"]
 	},
-	{
-		"id"			: 	"WERKZEUGE_METHODEN_ANFORDERUNGSSCHABLONEN_NATUERLICHSPRACHIGE_INHALT",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Natürlichsprachige Anforderungsschablone",
-		"description"	:	"Beschreibung",
-		"subsections"	: 	[]
-	},
-	{
-		"id"			: 	"WERKZEUGE_METHODEN_ANFORDERUNGSSCHABLONEN_NICHTNATUERLICHSPRACHIGE_INHALT",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Nicht Natürlichsprachige Anforderungsschablone",
-		"description"	:	"Beschreibung",
-		"subsections"	: 	[]
-	},
+			{
+				"id"			: 	"WERKZEUGE_METHODEN_ANFORDERUNGSSCHABLONEN_NATUERLICHSPRACHIGE_INHALT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Natürlichsprachige Anforderungsschablone",
+				"description"	:	"Beschreibung",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"WERKZEUGE_METHODEN_ANFORDERUNGSSCHABLONEN_NICHTNATUERLICHSPRACHIGE_INHALT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Nicht Natürlichsprachige Anforderungsschablone",
+				"description"	:	"Beschreibung",
+				"subsections"	: 	[]
+			},
 	
 	
 	
@@ -196,34 +720,34 @@
 		"description"	:	"",
 		"subsections"	: 	["WERKZEUGE_METHODEN_PROTOTYPING_WEGWERFPROTOTYP_INHALT", "WERKZEUGE_METHODEN_PROTOTYPING_EVOLUTIONAERER_PROTOTYP_INHALT", "WERKZEUGE_METHODEN_PROTOTYPING_TECHNISCHER_PROTOTYP_INHALT", "WERKZEUGE_METHODEN_PROTOTYPING_STORYBOARDS_INHALT"]
 	},
-	{
-		"id"			: 	"WERKZEUGE_METHODEN_PROTOTYPING_WEGWERFPROTOTYP_INHALT",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Wegwerfprototyp",
-		"description"	:	"Beschreibung",
-		"subsections"	: 	[]
-	},
-	{
-		"id"			: 	"WERKZEUGE_METHODEN_PROTOTYPING_EVOLUTIONAERER_PROTOTYP_INHALT",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Evolutionärer Prototyp",
-		"description"	:	"Beschreibung",
-		"subsections"	: 	[]
-	},
-	{
-		"id"			: 	"WERKZEUGE_METHODEN_PROTOTYPING_TECHNISCHER_PROTOTYP_INHALT",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Technischer Prototyp",
-		"description"	:	"Beschreibung",
-		"subsections"	: 	[]
-	},
-	{
-		"id"			: 	"WERKZEUGE_METHODEN_PROTOTYPING_STORYBOARDS_INHALT",
-		"type"			: 	"ExtensionPanelWidget",
-		"title"			:	"Story Boards",
-		"description"	:	"Beschreibung",
-		"subsections"	: 	[]
-	},
+			{
+				"id"			: 	"WERKZEUGE_METHODEN_PROTOTYPING_WEGWERFPROTOTYP_INHALT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Wegwerfprototyp",
+				"description"	:	"Beschreibung",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"WERKZEUGE_METHODEN_PROTOTYPING_EVOLUTIONAERER_PROTOTYP_INHALT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Evolutionärer Prototyp",
+				"description"	:	"Beschreibung",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"WERKZEUGE_METHODEN_PROTOTYPING_TECHNISCHER_PROTOTYP_INHALT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Technischer Prototyp",
+				"description"	:	"Beschreibung",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"WERKZEUGE_METHODEN_PROTOTYPING_STORYBOARDS_INHALT",
+				"type"			: 	"ExtensionPanelWidget",
+				"title"			:	"Story Boards",
+				"description"	:	"Beschreibung",
+				"subsections"	: 	[]
+			},
 	
 	
 	
@@ -234,28 +758,27 @@
 		"description"	:	"",
 		"subsections"	: 	[]
 	},
-	{
-		"id"			: 	"WERKZEUGE_METHODEN_DATENERHEBUNG_BEOBACHTUNGEN",
-		"type"			: 	"ButtonListWidget",
-		"title"			:	"Beobachtungen",
-		"description"	:	"",
-		"subsections"	: 	[]
-	},
-	{
-		"id"			: 	"WERKZEUGE_METHODEN_DATENERHEBUNG_ANALYSE_ALTSYSTEM",
-		"type"			: 	"ButtonListWidget",
-		"title"			:	"Analyse des Altsystems",
-		"description"	:	"",
-		"subsections"	: 	[]
-	},
-	{
-		"id"			: 	"WERKZEUGE_METHODEN_DATENERHEBUNG_USERSTORIES",
-		"type"			: 	"ButtonListWidget",
-		"title"			:	"Erstellen von User-Stories",
-		"description"	:	"",
-		"subsections"	: 	[]
-	}
-	
+			{
+				"id"			: 	"WERKZEUGE_METHODEN_DATENERHEBUNG_BEOBACHTUNGEN",
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"Beobachtungen",
+				"description"	:	"",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"WERKZEUGE_METHODEN_DATENERHEBUNG_ANALYSE_ALTSYSTEM",
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"Analyse des Altsystems",
+				"description"	:	"",
+				"subsections"	: 	[]
+			},
+			{
+				"id"			: 	"WERKZEUGE_METHODEN_DATENERHEBUNG_USERSTORIES",
+				"type"			: 	"ButtonListWidget",
+				"title"			:	"Erstellen von User-Stories",
+				"description"	:	"",
+				"subsections"	: 	[]
+			}
 	
 	
 	
