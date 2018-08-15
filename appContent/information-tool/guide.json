@@ -1,6 +1,6 @@
 ﻿[
 	{
-		"id"			: 	"ROOT_1",
+		"id"			: 	"ROOT_1_INFORMATION_FORMAILIEN",
 		"type"			: 	"ButtonListWidget",
 		"title" 		: 	"Formalien, Voraussetzungen und Fristen ",
 		"description" 	: 	"",
@@ -19,5 +19,244 @@
 		"title"			:	"Anmeldung",
 		"description"	:	"Dein Erstprüfer meldet nach der Zulassung dein Thema, ggf. die Aufgabenstellung und das offizielle Ausgabedatum an, ab dem die dreimonatige Frist beginnt.",
 		"subsections"	: 	[]
-	}
+	},
+	
+	{
+		"id"			: 	"ROOT_1_INFORMATION_METHODENUEBERSICHT",
+		"type"			: 	"ButtonListWidget",
+		"title" 		: 	"Methodenübersicht",
+		"description" 	: 	"",
+		"subsections"	: 	["ANF_IST_ANALYSE", "ANF_SOLL_ANALYSE", "ANF_SPEZIFIKATION"]
+	},
+	
+	{
+		"id"			: 	"ANF_IST_ANALYSE",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Bestimmung der Ist-Situatuion",
+		"description"	:	"",
+		"subsections"	: 	["ANF_IST_ANALYSE_INHALT", "ANF_IST_ANALYSE_WERKZEUGE"]
+	},
+	{
+		"id"			: 	"ANF_IST_ANALYSE_INHALT",
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Worauf kommt es an?",
+		"description"	:	"Ziel der Ist-Analyse stellt das Vervollständigen des Verständnisses für die Welt, in der die jeweilige Softwarelösung angestrebt wird.\n\nVersuche dich dabei auf das Problem zu konzentrieren und bedenke, dass dieser Schritt je nach Komplexität des Projektes sehr umfangreich ausfallen kann.  Es ist deshalb zwingend notwendig sich rechtzeitig eine Strategie zu überlegen und sich auf die wesentlichen Punkte zu konzentrieren.",
+		"subsections"	: 	[]
+	},
+	{
+		"id"			: 	"ANF_IST_ANALYSE_WERKZEUGE",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Werkzeuge und Methoden",
+		"description"	:	"",
+		"subsections"	: 	["WERKZEUGE_METHODEN_DATENERHEBUNG_BEFRAGUNGEN", "WERKZEUGE_METHODEN_DATENERHEBUNG_BEOBACHTUNGEN", "WERKZEUGE_METHODEN_DATENERHEBUNG_ANALYSE_ALTSYSTEM", "WERKZEUGE_METHODEN_DATENERHEBUNG_USERSTORIES"]
+	},
+	
+	
+	
+	{
+		"id"			: 	"ANF_SOLL_ANALYSE",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Bestimmung der Soll-Situatuion",
+		"description"	:	"",
+		"subsections"	: 	["ANF_SOLL_ANALYSE_INHALT", "ANF_SOLL_ANALYSE_WERKZEUGE"]
+	},
+	{
+		"id"			: 	"ANF_SOLL_ANALYSE_INHALT",
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Worauf kommt es an?",
+		"description"	:	"Ziel der Soll-Analyse stellt das Aufdecken bisheriger Schwachstellen durch die angestrebte Softwarelösung dar.\n\nDie Analyse der erfassten Daten (Ist-Analyse) deckt die Schwachstellen auf, die du mit einer softwaretechnischen Lösung beseitigen sollst. Der nächste Schritt ist nun auszuarbeiten, was die softwaretechnische Lösung dazu leisten muss (Soll-Analyse). Die Soll-Analyse muss die Anforderungen an die zu implementierende Software aufstellen. Dazu gehört auch, diese Anforderungen hinsichtlich ihrer Machbarkeit und Folgen einzuschätzen\n\nPass auf, dass du dich vor den Kunden an dieser Stelle nicht in der technischen, sondern weiterhin auf der abstrakten Ebene bewegst. Denke immer daran, dass der Kunde unter Umständen sowieso schon Schwierigkeiten bei der Vermittlung von seinen Vorstellungen hat. ",
+		"subsections"	: 	[]
+	},
+	{
+		"id"			: 	"ANF_SOLL_ANALYSE_WERKZEUGE",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Werkzeuge und Methoden",
+		"description"	:	"",
+		"subsections"	: 	["WERKZEUGE_METHODEN_PROTOTYPING"]
+	},
+	
+	
+	{
+		"id"			: 	"ANF_SPEZIFIKATION",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Spezifikation der Anforderungen",
+		"description"	:	"",
+		"subsections"	: 	["ANF_SPEZIFIKATION_INHALT", "ANF_SPEZIFIKATION_WERKZEUGE"]
+	},
+	{
+		"id"			: 	"ANF_SPEZIFIKATION_INHALT",
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Worauf kommt es an?",
+		"description"	:	"Um die Anforderungen spezifizieren zu können, werden die Ergebnisse aus der zuvor durchgeführten Anforderungsermittlung genutzt.\n\nIn diesem Abschnitt der Anforderungsanalyse geht es darum, dass du die ermittelten Anforderungen schrittweise in eine von dir gewählte Anforderungsschablone überführst und somit präzisierst und genau beschreibst. \n\nStelle sicher, dass du hierbei sehr präzise vorgehst und dich nicht auf Implementierungsdetails beziehst.",
+		"subsections"	: 	[]
+	},
+	{
+		"id"			: 	"ANF_SPEZIFIKATION_WERKZEUGE",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Werkzeuge und Methoden",
+		"description"	:	"",
+		"subsections"	: 	["WERKZEUGE_METHODEN_ANFORDERUNGSSCHABLONEN"]
+	},
+	
+	
+	
+	{
+		"id"			: 	"ARBEITSSCHRITT_BESTIMMUNG_STAKEHOLDER",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Bestimmung der Stakeholder",
+		"description"	:	"",
+		"subsections"	: 	["ARBEITSSCHRITT_BESTIMMUNG_STAKEHOLDER_INHALT", "ARBEITSSCHRITT_BESTIMMUNG_STAKEHOLDER_ERGEBNISSE"]
+	},
+	{
+		"id"			: 	"ARBEITSSCHRITT_BESTIMMUNG_STAKEHOLDER_INHALT",
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Worauf kommt es an?",
+		"description"	:	"Im Rahmen der Bestimmung von Stakeholdern geht es um das Präzisieren von Eigenschaften der verschiedenen Interessenparteien, welche Einfluss auf dein Projekt haben.\n\nEs ist deshalb wichtig, sich die folgenden Fragen zu stellen:\n\nWelche Rolle hat der Stakeholder?\n\nWie beschreibe ich den Stakeholder am besten?\n\nKann ich konkrete Vertreter der Stakeholder ausmachen? Ist die Erreichbarkeit dieser Personen eingeschränkt? \n\nWelche Kompetenzgebiete erfüllen die einzelnen Stakeholder?\n\nWarum muss ich die Stakeholder in das Projekt einbeziehen?\n\nWelche Einstellung hat der jeweilige Stakeholder zum Projekt und wie sehen deren Erwartungen aus?\n\nWie stehen die Stakeholder untereinander in Beziehung?\n\nGibt es Interessenkonflikte unter den Stakeholdern? Wie können diese gelöst werden?\n\nGibt es Risiken für das Projekt? Wie können diese gesenkt werden?\n\n\nGrundsätzlich ist es wichtig, dass Stakeholder in das Projekt einbezogen werden. Dabei gibt es verschiedene Möglichkeiten, welche hinsichtlich des Arbeits- und Zeitumfangs sowie der Qualität der Ergebnisse unterschiedlich Komplex ausfallen. ",
+		"subsections"	: 	[]
+	},
+	{
+		"id"			: 	"ARBEITSSCHRITT_BESTIMMUNG_STAKEHOLDER_ERGEBNISSE",
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Ergebnisse der Stakeholderanalyse",
+		"description"	:	"Nach Abschluss der Stakeholderanalyse hat man beispielsweise folgende dokumentierte Ergebnisse vorliegen:\n\nStakeholder-Portfolio\n\nStakeholder-Maßnahmenkatalog",
+		"subsections"	: 	[]
+	},
+	
+	
+	
+	{
+		"id"			: 	"ARBEITSSCHRITT_BESTIMMUNG_PROJEKTUMFELD",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Bestimmung des Projektumfeldes",
+		"description"	:	"",
+		"subsections"	: 	["ARBEITSSCHRITT_BESTIMMUNG_PROJEKTUMFELD_INHALT", "ARBEITSSCHRITT_BESTIMMUNG_PROJEKTUMFELD_ERGEBNISSE"]
+	},
+	{
+		"id"			: 	"ARBEITSSCHRITT_BESTIMMUNG_PROJEKTUMFELD_INHALT",
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Worauf kommt es an?",
+		"description"	:	"Es ist sehr wichtig, dass das Projektumfeld kennen gelernt wird. Aus diesem Grund sollte versucht werden möglichst viele Inforationen aus dem Umfeld zu studierend.\nFolgende Untersuchungspunkte könnten aufschlussreiche Informationen zu dem Projektumfeld enthalten:\n\nStruktur der Zielorganisation\n\nArt der anfallenden Aufgaben\n\nKommunikation innerhalb der Zielorganisation\n\nVorliegende Dokumente\n\nDaten der Zielorganisation\n\nSchwachstellen in der Organisation\n\nWas sind die Auffälligkeiten des Projektumfeldes?\n\nGibt es Schwachstellen im Projektumfeld?\n\nWelchen Rahmenbedingungen sind gegeben?",
+		"subsections"	: 	[]
+	},
+	{
+		"id"			: 	"ARBEITSSCHRITT_BESTIMMUNG_PROJEKTUMFELD_WERKZEUGE",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Ergebnisse der Analyse des Projektumfeldes",
+		"description"	:	"",
+		"subsections"	: 	["WERKZEUGE_METHODEN_KREATIVTECHNIKEN_MINDMAP"]
+	},
+	
+	
+	
+	{
+		"id"			: 	"WERKZEUGE_METHODEN_KREATIVTECHNIKEN_MINDMAP",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Mind-Map",
+		"description"	:	"",
+		"subsections"	: 	["WERKZEUGE_METHODEN_KREATIVTECHNIKEN_MINDMAP_INHALT"]
+	},
+	{
+		"id"			: 	"WERKZEUGE_METHODEN_KREATIVTECHNIKEN_MINDMAP_INHALT",
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Worauf kommt es an?",
+		"description"	:	"Beschreibung",
+		"subsections"	: 	[]
+	},
+	
+	
+	
+	{
+		"id"			: 	"WERKZEUGE_METHODEN_ANFORDERUNGSSCHABLONEN",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Anforderungsschablonen",
+		"description"	:	"",
+		"subsections"	: 	["WERKZEUGE_METHODEN_ANFORDERUNGSSCHABLONEN_NATUERLICHSPRACHIGE_INHALT", "WERKZEUGE_METHODEN_ANFORDERUNGSSCHABLONEN_NICHTNATUERLICHSPRACHIGE_INHALT"]
+	},
+	{
+		"id"			: 	"WERKZEUGE_METHODEN_ANFORDERUNGSSCHABLONEN_NATUERLICHSPRACHIGE_INHALT",
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Natürlichsprachige Anforderungsschablone",
+		"description"	:	"Beschreibung",
+		"subsections"	: 	[]
+	},
+	{
+		"id"			: 	"WERKZEUGE_METHODEN_ANFORDERUNGSSCHABLONEN_NICHTNATUERLICHSPRACHIGE_INHALT",
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Nicht Natürlichsprachige Anforderungsschablone",
+		"description"	:	"Beschreibung",
+		"subsections"	: 	[]
+	},
+	
+	
+	
+	{
+		"id"			: 	"WERKZEUGE_METHODEN_PROTOTYPING",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Prototyping",
+		"description"	:	"",
+		"subsections"	: 	["WERKZEUGE_METHODEN_PROTOTYPING_WEGWERFPROTOTYP_INHALT", "WERKZEUGE_METHODEN_PROTOTYPING_EVOLUTIONAERER_PROTOTYP_INHALT", "WERKZEUGE_METHODEN_PROTOTYPING_TECHNISCHER_PROTOTYP_INHALT", "WERKZEUGE_METHODEN_PROTOTYPING_STORYBOARDS_INHALT"]
+	},
+	{
+		"id"			: 	"WERKZEUGE_METHODEN_PROTOTYPING_WEGWERFPROTOTYP_INHALT",
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Wegwerfprototyp",
+		"description"	:	"Beschreibung",
+		"subsections"	: 	[]
+	},
+	{
+		"id"			: 	"WERKZEUGE_METHODEN_PROTOTYPING_EVOLUTIONAERER_PROTOTYP_INHALT",
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Evolutionärer Prototyp",
+		"description"	:	"Beschreibung",
+		"subsections"	: 	[]
+	},
+	{
+		"id"			: 	"WERKZEUGE_METHODEN_PROTOTYPING_TECHNISCHER_PROTOTYP_INHALT",
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Technischer Prototyp",
+		"description"	:	"Beschreibung",
+		"subsections"	: 	[]
+	},
+	{
+		"id"			: 	"WERKZEUGE_METHODEN_PROTOTYPING_STORYBOARDS_INHALT",
+		"type"			: 	"ExtensionPanelWidget",
+		"title"			:	"Story Boards",
+		"description"	:	"Beschreibung",
+		"subsections"	: 	[]
+	},
+	
+	
+	
+	{
+		"id"			: 	"WERKZEUGE_METHODEN_DATENERHEBUNG_BEFRAGUNGEN",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Befragungen",
+		"description"	:	"",
+		"subsections"	: 	[]
+	},
+	{
+		"id"			: 	"WERKZEUGE_METHODEN_DATENERHEBUNG_BEOBACHTUNGEN",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Beobachtungen",
+		"description"	:	"",
+		"subsections"	: 	[]
+	},
+	{
+		"id"			: 	"WERKZEUGE_METHODEN_DATENERHEBUNG_ANALYSE_ALTSYSTEM",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Analyse des Altsystems",
+		"description"	:	"",
+		"subsections"	: 	[]
+	},
+	{
+		"id"			: 	"WERKZEUGE_METHODEN_DATENERHEBUNG_USERSTORIES",
+		"type"			: 	"ButtonListWidget",
+		"title"			:	"Erstellen von User-Stories",
+		"description"	:	"",
+		"subsections"	: 	[]
+	},
+	
+	
+	
+	
 ]
