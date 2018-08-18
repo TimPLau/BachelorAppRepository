@@ -61,7 +61,7 @@
 	{
 		"id"			: 	"ROOT_INFORMATION_BETREUUNG",
 		"type"			: 	"ButtonListWidget",
-		"title" 		: 	"Betreuung deiner Bachelorarbeit",
+		"title" 		: 	"Betreuung der Bachelorarbeit",
 		"description" 	: 	"",
 		"subsections"	: 	["INFORMATION_BETREUUNG_WAS_ERSTPRUEFER", "INFORMATION_BETREUUNG_WER_ERSTPRUEFER", "INFORMATION_BETREUUNG_ZWEITPRUEFER", "INFORMATION_BETREUUNG_UNTERSCHIEDE", "INFORMATION_BETREUUNG_INTERN", "INFORMATION_BETREUUNG_EXTERN", "INFORMATION_BETREUUNG_ZWISCHENSTAND", "INFORMATION_BETREUUNG_EMAIL"]
 	},
@@ -127,7 +127,7 @@
 	{
 		"id"			: 	"ROOT_INFORMATION_THEMA",
 		"type"			: 	"ButtonListWidget",
-		"title" 		: 	"Betreuung",
+		"title" 		: 	"Formulierung des Themas",
 		"description" 	: 	"",
 		"subsections"	: 	["INFORMATION_THEMA_VORGEGEBEN", "INFORMATION_THEMA_EIGENES", "INFORMATION_THEMA_AUFGABENSTELLUNG", "INFORMATION_THEMA_SCHWIERIGKEITSGRAD", "INFORMATION_THEMA_FRAGEN", "INFORMATION_THEMA_ANSPRUCH", "INFORMATION_THEMA_BERUF", "INFORMATION_THEMA_FORMULIERTUNG_TITEL", "INFORMATION_THEMA_EINARBEITUNG", "INFORMATION_THEMA_FORMBLATT"]
 	},
@@ -427,7 +427,7 @@
 	{
 		"id"			: 	"ROOT_INFORMATION_FAQ",
 		"type"			: 	"ButtonListWidget",
-		"title" 		: 	"Häufig gestellte Fragen",
+		"title" 		: 	"FAQ",
 		"description" 	: 	"",
 		"subsections"	: 	[
 		"INFORMATION_FAQ_QUELLCODE", 
