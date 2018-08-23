@@ -1,39 +1,27 @@
 ﻿[
 	{
+		"id"			: "root",
 		"type"			: "ButtonListWidget",
 		"title" 		: "section 1",
 		"description" 	: "",
 		"tags"			: [],
-		"subsections"	: [
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"subsection 1",
-						"description"	:	"subsection 1 description",
-						"tags"			:	[],
-						"subsections"	: 	[]
-					},
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"subsection 2",
-						"description"	:	"subsection 2 description",
-						"tags"			:	[],
-						"subsections"	: 	[]
-					}
-				]
+		"subsections"	: ["sub1", "sub2"]
 	},
 	{
-		"type"			: "ButtonListWidget",
-		"title" 		: "section 2",
-		"description" 	: "",
+		"id"			: "sub1",
+		"type"			: "ExpansionPanelWidget",
+		"title" 		: "subsection 1",
+		"description" 	: "description 1",
 		"tags"			: [],
-		"subsections"	: [
-					{
-						"type"			: 	"ExtensionPanelWidget",
-						"title"			:	"subsection 3",
-						"description"	:	"subsection 3 description",
-						"tags"			:	[],
-						"subsections"	: 	[]
-					}
-				]
-	}
+		"subsections"	: []
+	},
+	{
+		"id"			: "sub2",
+		"type"			: "ExpansionPanelWidget",
+		"title" 		: "subsection 2",
+		"description" 	: "description 2",
+		"tags"			: [],
+		"subsections"	: []
+	},
+
 ]
